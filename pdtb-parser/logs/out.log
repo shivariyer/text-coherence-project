@@ -1,0 +1,91 @@
+15:21:28.072 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+15:21:28.084 s.e.n.c.p.u.NestedProperties INFO  [main:66] - OUTPUT_FOLDER_NAME : output/
+15:21:28.085 s.e.n.c.p.u.NestedProperties INFO  [main:66] - DEP_RULES_FILE : aux_data/dep_rules.txt
+15:21:28.086 s.e.n.c.p.u.NestedProperties INFO  [main:66] - WORD_PAIRS_FILE : aux_data/word_pair.txt
+15:21:28.086 s.e.n.c.p.u.NestedProperties INFO  [main:66] - MODEL_PATH : models/level_1/
+15:21:28.087 s.e.n.c.p.u.NestedProperties INFO  [main:66] - STANFORD_MODEL : aux_data/englishPCFG.ser.gz
+15:21:28.088 s.e.n.c.p.u.NestedProperties INFO  [main:66] - SEMANTIC_LEVEL : 1
+15:21:28.089 s.e.n.c.p.u.NestedProperties INFO  [main:66] - PROD_RULES_FILE : aux_data/prod_rules.txt
+15:21:28.089 s.e.n.c.p.u.NestedProperties INFO  [main:69] - Done loading properties.
+15:21:28.090 c.e.n.c.p.r.PdtbParser INFO  [main:58] - Parsing file ../data/paper.txt
+15:21:28.097 s.e.n.c.p.u.Corpus INFO  [main:945] - Generating parse and dependecy trees with Stanford parser...
+15:21:28.834 s.e.n.c.p.u.Corpus INFO  [main:951] - Generating tree for: paper.txt
+15:21:28.932 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:0
+15:21:29.628 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:1
+15:21:29.678 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:2
+15:21:29.862 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:3
+15:21:30.670 s.e.n.c.p.u.Corpus INFO  [main:976] - Tree generation for paper.txt is done. Trees are in /Users/jedi/Projects/courses/coh/pdtb-parser/../data/output/paper.txt
+15:21:30.677 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:144] - Generating the spans of each node in the parse trees.
+15:21:30.690 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:189] - Done.
+15:21:30.691 c.e.n.c.p.r.PdtbParser INFO  [main:120] - Running the PDTB parser
+15:21:30.694 c.e.n.c.p.r.PdtbParser INFO  [main:122] - Running connective classifier...
+15:21:30.980 c.e.n.c.p.r.PdtbParser INFO  [main:124] - Done.
+15:21:30.982 c.e.n.c.p.r.PdtbParser INFO  [main:126] - Running argument position classifier...
+15:21:31.026 c.e.n.c.p.r.PdtbParser INFO  [main:128] - Done.
+15:21:31.030 c.e.n.c.p.r.PdtbParser INFO  [main:130] - Running argument extractor classifier...
+15:21:31.220 c.e.n.c.p.r.PdtbParser INFO  [main:133] - Done.
+15:21:31.221 c.e.n.c.p.r.PdtbParser INFO  [main:135] - Running Explicit classifier...
+15:21:31.235 c.e.n.c.p.r.PdtbParser INFO  [main:138] - Done.
+15:21:31.246 c.e.n.c.p.r.PdtbParser INFO  [main:140] - Running NonExplicit classifier...
+15:21:31.285 c.e.n.c.p.r.PdtbParser INFO  [main:143] - Done with everything. The PDTB relations for the file are in: /Users/jedi/Projects/courses/coh/pdtb-parser/../data/output/paper.txt.pipe
+15:35:27.017 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+15:35:27.024 s.e.n.c.p.u.NestedProperties INFO  [main:66] - OUTPUT_FOLDER_NAME : output/
+15:35:27.025 s.e.n.c.p.u.NestedProperties INFO  [main:66] - DEP_RULES_FILE : aux_data/dep_rules.txt
+15:35:27.025 s.e.n.c.p.u.NestedProperties INFO  [main:66] - WORD_PAIRS_FILE : aux_data/word_pair.txt
+15:35:27.026 s.e.n.c.p.u.NestedProperties INFO  [main:66] - MODEL_PATH : models/level_1/
+15:35:27.026 s.e.n.c.p.u.NestedProperties INFO  [main:66] - STANFORD_MODEL : aux_data/englishPCFG.ser.gz
+15:35:27.028 s.e.n.c.p.u.NestedProperties INFO  [main:66] - SEMANTIC_LEVEL : 1
+15:35:27.028 s.e.n.c.p.u.NestedProperties INFO  [main:66] - PROD_RULES_FILE : aux_data/prod_rules.txt
+15:35:27.028 s.e.n.c.p.u.NestedProperties INFO  [main:69] - Done loading properties.
+15:35:27.029 c.e.n.c.p.r.PdtbParser INFO  [main:58] - Parsing file ../data/paper.txt
+15:35:27.036 s.e.n.c.p.u.Corpus INFO  [main:945] - Generating parse and dependecy trees with Stanford parser...
+15:35:27.722 s.e.n.c.p.u.Corpus INFO  [main:951] - Generating tree for: paper.txt
+15:35:27.809 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:0
+15:35:27.991 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:1
+15:35:28.632 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:2
+15:35:28.666 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:3
+15:35:28.867 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:4
+15:35:29.375 s.e.n.c.p.u.Corpus INFO  [main:976] - Tree generation for paper.txt is done. Trees are in /Users/jedi/Projects/courses/coh/pdtb-parser/../data/output/paper.txt
+15:35:29.378 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:144] - Generating the spans of each node in the parse trees.
+15:35:29.389 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:189] - Done.
+15:35:29.390 c.e.n.c.p.r.PdtbParser INFO  [main:120] - Running the PDTB parser
+15:35:29.393 c.e.n.c.p.r.PdtbParser INFO  [main:122] - Running connective classifier...
+15:35:29.670 c.e.n.c.p.r.PdtbParser INFO  [main:124] - Done.
+15:35:29.671 c.e.n.c.p.r.PdtbParser INFO  [main:126] - Running argument position classifier...
+15:35:29.707 c.e.n.c.p.r.PdtbParser INFO  [main:128] - Done.
+15:35:29.711 c.e.n.c.p.r.PdtbParser INFO  [main:130] - Running argument extractor classifier...
+15:35:29.913 c.e.n.c.p.r.PdtbParser INFO  [main:133] - Done.
+15:35:29.914 c.e.n.c.p.r.PdtbParser INFO  [main:135] - Running Explicit classifier...
+15:35:29.923 c.e.n.c.p.r.PdtbParser INFO  [main:138] - Done.
+15:35:29.930 c.e.n.c.p.r.PdtbParser INFO  [main:140] - Running NonExplicit classifier...
+15:35:29.947 c.e.n.c.p.r.PdtbParser INFO  [main:143] - Done with everything. The PDTB relations for the file are in: /Users/jedi/Projects/courses/coh/pdtb-parser/../data/output/paper.txt.pipe
+15:36:10.430 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+15:36:10.434 s.e.n.c.p.u.NestedProperties INFO  [main:66] - OUTPUT_FOLDER_NAME : output/
+15:36:10.435 s.e.n.c.p.u.NestedProperties INFO  [main:66] - DEP_RULES_FILE : aux_data/dep_rules.txt
+15:36:10.435 s.e.n.c.p.u.NestedProperties INFO  [main:66] - WORD_PAIRS_FILE : aux_data/word_pair.txt
+15:36:10.436 s.e.n.c.p.u.NestedProperties INFO  [main:66] - MODEL_PATH : models/level_1/
+15:36:10.436 s.e.n.c.p.u.NestedProperties INFO  [main:66] - STANFORD_MODEL : aux_data/englishPCFG.ser.gz
+15:36:10.436 s.e.n.c.p.u.NestedProperties INFO  [main:66] - SEMANTIC_LEVEL : 1
+15:36:10.437 s.e.n.c.p.u.NestedProperties INFO  [main:66] - PROD_RULES_FILE : aux_data/prod_rules.txt
+15:36:10.437 s.e.n.c.p.u.NestedProperties INFO  [main:69] - Done loading properties.
+15:36:10.438 c.e.n.c.p.r.PdtbParser INFO  [main:58] - Parsing file ../data/paper.txt
+15:36:10.445 s.e.n.c.p.u.Corpus INFO  [main:945] - Generating parse and dependecy trees with Stanford parser...
+15:36:11.094 s.e.n.c.p.u.Corpus INFO  [main:951] - Generating tree for: paper.txt
+15:36:11.156 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:0
+15:36:11.858 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:1
+15:36:11.887 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:2
+15:36:12.089 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:3
+15:36:12.786 s.e.n.c.p.u.Corpus INFO  [main:976] - Tree generation for paper.txt is done. Trees are in /Users/jedi/Projects/courses/coh/pdtb-parser/../data/output/paper.txt
+15:36:12.788 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:144] - Generating the spans of each node in the parse trees.
+15:36:12.810 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:189] - Done.
+15:36:12.811 c.e.n.c.p.r.PdtbParser INFO  [main:120] - Running the PDTB parser
+15:36:12.813 c.e.n.c.p.r.PdtbParser INFO  [main:122] - Running connective classifier...
+15:36:13.032 c.e.n.c.p.r.PdtbParser INFO  [main:124] - Done.
+15:36:13.033 c.e.n.c.p.r.PdtbParser INFO  [main:126] - Running argument position classifier...
+15:36:13.081 c.e.n.c.p.r.PdtbParser INFO  [main:128] - Done.
+15:36:13.086 c.e.n.c.p.r.PdtbParser INFO  [main:130] - Running argument extractor classifier...
+15:36:13.282 c.e.n.c.p.r.PdtbParser INFO  [main:133] - Done.
+15:36:13.284 c.e.n.c.p.r.PdtbParser INFO  [main:135] - Running Explicit classifier...
+15:36:13.308 c.e.n.c.p.r.PdtbParser INFO  [main:138] - Done.
+15:36:13.317 c.e.n.c.p.r.PdtbParser INFO  [main:140] - Running NonExplicit classifier...
+15:36:13.354 c.e.n.c.p.r.PdtbParser INFO  [main:143] - Done with everything. The PDTB relations for the file are in: /Users/jedi/Projects/courses/coh/pdtb-parser/../data/output/paper.txt.pipe
