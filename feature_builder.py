@@ -1,5 +1,3 @@
-# TODO fix unicode issuse
-
 import json
 import sys
 import nltk
@@ -12,6 +10,7 @@ class CoherenceFeatureBuilder():
     def __init__(self):
         self.open_class_words = ['NN', 'NNS', 'NNP', 'NNPS', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'RB', 'RBR', 'RBS', 'JJ', 'JJR', 'JJS']
         self.discourse_matrix = {}
+        self.relation_matrix = {}
         self.all_terms = []
         self.num_sentences = []
         
@@ -36,28 +35,43 @@ class CoherenceFeatureBuilder():
                     relations.append(relation)
             return {"relations": relations}
 
-    def extract_relation(self, relation, arg):
+    def extract_relation(self, relation, arg, feature_type):
         # TODO try other stemmers
         stemmer = PorterStemmer()
         tokens = nltk.word_tokenize(relation[arg])
         terms = [stemmer.stem(_[0]) for _ in nltk.pos_tag(tokens) if _[1] in self.open_class_words]
+
+        if feature_type == "argument":
+            matrix = self.discourse_matrix
+        elif feature_type == "type":
+            matrix = self.relation_matrix
+
         for term in terms:
             arg_type = "1" if term in relation["arg1"] else "2"
-            arg_relation = relation['conn_head_semantic_class']+"."+arg_type 
+            if feature_type == "argument":
+                arg_relation = relation['conn_head_semantic_class']+"."+arg_type 
+            elif feature_type == "type":
+                arg_relation = relation['type']
 
             rel_type = (term, relation["s1"] if arg_type == "1" else relation["s2"])
-            if rel_type in self.discourse_matrix:
-                self.discourse_matrix[rel_type].append(arg_relation)
+            if rel_type in matrix:
+                if arg_relation not in matrix[rel_type]:
+                    matrix[rel_type].append(arg_relation)
             else:
-                self.discourse_matrix[rel_type] = [arg_relation]
+                matrix[rel_type] = [arg_relation]
+
         
         # Adding relation terms to global list, removing duplicates
         self.all_terms = list(set(self.all_terms + terms))
 
+
     def build_matrix(self, relations):
+        # Extracting argument and relation features corresponding Type & Arg in paper
         for relation in relations["relations"]:
-            self.extract_relation(relation, 'arg1')
-            self.extract_relation(relation, 'arg2')
+            for arg in ['arg1', 'arg2']:
+                for feat_type in ['argument', 'type']:
+                    self.extract_relation(relation, arg, feat_type)
+            
             self.num_sentences.extend([relation['s1'], relation['s2']])
 
         self.num_sentences = list(set(self.num_sentences))
@@ -66,27 +80,38 @@ class CoherenceFeatureBuilder():
             for num_s in self.num_sentences:
                 if self.discourse_matrix.get((term, num_s), None) is None:
                     self.discourse_matrix[(term, num_s)] = [None]
+                if self.relation_matrix.get((term, num_s), None) is None:
+                    self.relation_matrix[(term, num_s)] = [None]
 
-    def get_permutations(self, term, s0, s1):
+    def get_permutations(self, term, s0, s1, feat_type):
         unique_permut = []
-        if self.discourse_matrix.get((term, s0), None) and  self.discourse_matrix.get((term, s1), None):
-            for _ in itertools.product(self.discourse_matrix[(term, s0)], self.discourse_matrix[(term, s1)]):
+        if feat_type == 'argument':
+            feature_matrix = self.discourse_matrix
+        elif feat_type == 'type':
+            feature_matrix = self.relation_matrix
+
+        if feature_matrix.get((term, s0), None) and  feature_matrix.get((term, s1), None):
+            for _ in itertools.product(feature_matrix[(term, s0)], feature_matrix[(term, s1)]):
                 unique_permut.append(_)
         return [_ for _ in unique_permut] 
 
-    def compute_sequence_probabilities(self):
-        sequence_probability = {}
-        total_permutations = 0
-        for term in self.all_terms:
-            for num_s in sorted(self.num_sentences)[:-1]:
-                local_permutations = self.get_permutations(term, num_s, num_s+1)
-                for lp in local_permutations:
-                    if sequence_probability.get(lp, None):
-                        sequence_probability[lp] += 1.0
-                    else:
-                        sequence_probability[lp] = 1.0
-                total_permutations += len(local_permutations)
-        return {k: sequence_probability[k]/total_permutations  for k in sequence_probability.keys()}
+    def compute_sequence_probabilities(self, feature_types=['argument']):
+        final_features = {}
+        for feature_type in feature_types:
+            total_permutations = 0
+            sequence_probability = {}
+            for term in self.all_terms:
+                for num_s in sorted(self.num_sentences)[:-1]:
+                    local_permutations = self.get_permutations(term, num_s, num_s+1, feature_type)
+                    for lp in local_permutations:
+                        if sequence_probability.get(lp, None):
+                            sequence_probability[lp] += 1.0
+                        else:
+                            sequence_probability[lp] = 1.0
+                    total_permutations += len(local_permutations)
+            final_features.update({k: sequence_probability[k]/total_permutations  for k in sequence_probability.keys()})
+        print final_features
+        return final_features
 
 if __name__ == "__main__":
     input_dir = sys.argv[1]#'data/wsj_2300.txt.pipe'
@@ -94,7 +119,7 @@ if __name__ == "__main__":
     parse = False#True
     features = {}
     for filename in os.listdir(os.path.join('data', input_dir)):
-        print "Processing file:`%s"%filename
+        print "Processing file: %s"%filename
         cb = CoherenceFeatureBuilder() 
         op_file = os.path.join('data', output_dir, filename+'.json')
         if parse:
@@ -105,6 +130,12 @@ if __name__ == "__main__":
             f = open(op_file, 'r')
             relations = json.loads(f.read())
         cb.build_matrix(relations)
-        features[filename] = cb.compute_sequence_probabilities()
+        '''
+        for k in cb.discourse_matrix.keys():
+            print k,"==>" , cb.discourse_matrix[k]
+        for k in cb.relation_matrix.keys():
+            print k,"==>" ,cb.relation_matrix[k]
+        '''
+        features[filename] = cb.compute_sequence_probabilities(['argument', 'type'])
     pickle.dump(features, open('data/%s_features.pkl'%input_dir, 'wb'))
 
