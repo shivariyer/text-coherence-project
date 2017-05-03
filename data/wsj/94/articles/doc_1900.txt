@@ -1,0 +1,75 @@
+Portfolio insurance, the high-tech hedging strategy that helped grease the slide in the 1987 stock-market crash, is alive and well.
+And just as in 1987, it doesn't always work out as planned, as some financial institutions found out in the recent European bond-market turmoil.
+Basically, portfolio insurance is just a type of stop-loss strategy.
+That is, it calls for nimbly selling out of your losing bets and buying back into winning bets.
+Banks, securities firms and other big traders rely heavily on portfolio insurance to contain their potential losses when they buy and sell options.
+But since portfolio insurance got a bad name after it backfired on investors in 1987, it goes by an alias these days -- the sexier, Star Trek moniker of "delta-hedging."
+Whatever you call it, the recent turmoil in European bond markets taught some practitioners -- including banks and securities firms that were hedging options sales to hedge funds and other investors -- the same painful lessons of earlier portfolio insurers: Delta-hedging can break down in volatile markets, just when it is needed most.
+What's more, at such times, it can actually feed volatility.
+The complexities of hedging certain hot-selling "exotic" options may only compound such glitches.
+"The tried-and-true strategies for hedging these products work fine when the markets aren't subject to sharp moves or large shocks," says Victor S. Filatov, president of Smith Barney Global Capital Management in London.
+But turbulent times can start "causing problems for people who normally have these risks under control."
+Options are financial arrangements that give buyers the right to buy, or sell, securities or other assets at prearranged prices over some future period.
+An option can gyrate wildly in value with even modest changes in the underlying security's price; the relationship between the two is known as the option's "delta."
+Thus, dealers in these instruments need some way to hedge their delta to contain the risk.
+How you delta-hedge depends on the bets you're trying to hedge.
+For instance, delta-hedging would prompt options sellers to sell into falling markets and buy into rallies.
+It would give the opposite directions to options buyers, such as dealers who might hold big options inventories.
+Consequently, it is the option sellers, not the buyers, who lose when markets get jarred.
+Those who have bought options actually reap windfall profits when volatility spikes.
+That's because, in contrast to option sellers, their delta-hedges are programmed to continually buy as markets spike down and sell when prices bounce.
+And because they are constantly trading against the trend, they not only profit but also help damp volatility.
+In theory, delta-hedging takes place with computer-timed precision, and there aren't any snags.
+But in real life, it doesn't always work so smoothly.
+"When volatility ends up being much greater than anticipated, you can't get your delta trades off at the right points," says an executive at one big derivatives dealer.
+"In a choppy market like we saw recently in European bonds, people can end up chasing their tails."
+And when delta hedges go awry, "dealers suddenly may not want to do the business because the risk-management tools aren't in place," says Mr. Filatov.
+"The market-making process for complicated products can break down."
+How does this happen?
+Take the relatively simple case of dealers who sell "call" options on long-term Treasury bonds.
+Such options give buyers the right to buy bonds at a fixed price over a specific time period.
+And compared with buying bonds outright, these options are much more sensitive to market moves.
+For instance, a call option to buy $1 million worth of Treasury bonds at current prices during the next six months would cost the buyer about $21,100, according to Thomas Ho, president of Global Advanced Technology Corp., a New York financial research firm.
+If interest rates were to fall 0.75 percentage point in that period, the underlying bonds would gain just 9%, he calculates.
+By contrast, the option's value would soar to $84,300 -- a 300% gain.
+If bond prices fell instead, the option would lose money just as quickly.
+But no matter how far prices drop, the buyer can't lose more than the initial purchase price, or "option premium," of $21,100.
+The reverse is true for the dealer who sells the call option.
+If the buyer loses, the seller wins -- but the most he can make is the $21,100 premium.
+But if the buyer wins, the dealer's losses are potentially infinite, since he's the one who must pay the tab for the buyer's huge gains.
+That's where delta-hedging comes in.
+To delta-hedge the above Treasury call option, for example, the dealer would start by immediately buying $508,731 of bonds, Mr. Ho says.
+As prices rose, he would buy more and more bonds, to the point that he'd own some $1 million of bonds before interest rates moved 0.75 percentage point against him.
+But if bond prices went south instead, owning $508,731 of bonds as a hedge would cost money, rather than offer protection, so the dealer would unwind it by selling bonds.
+By the time rates had moved 0.75 point, he would have sold almost his entire $508,731 hedge.
+That's exactly the kind of maneuver dealers attempted in recent weeks when European bond prices started to tumble.
+Earlier this year, when bond bulls were raging, international banks and securities firms aggressively sold call options to investors, including highly leveraged hedge-fund traders, traders say.
+Because selling the calls made those dealers vulnerable to a rally, they delta-hedged by buying bonds.
+As bond prices turned south, the dealers shed their hedges by selling bonds, adding to the selling orgy.
+The plunging markets forced them to sell at lower prices than expected, causing unexpected losses on their hedges.
+Making things worse was another group of options players.
+These were speculators who bought calls early in the year and paid for them by selling bearish "put" options to other investors.
+Put options are the right to sell, rather than buy, securities at a fixed price in a given period.
+Puts are in hot demand in falling markets, because they allow buyers to stop their losses at a preset floor.
+At such times, puts soar in value, posing potentially unlimited losses for sellers.
+So when the crunch came in Europe, these traders, too, began hedging their bets by frantically selling into the rout.
+"People sold in the bond market until prices got pushed too far, then in the bond-futures markets, then the swap market.
+And then they started trying to hedge in other instruments -- like selling German bonds to hedge losses in Italian bonds -- until all the markets were rolling along in the same black hole," says a dealer at one European bank.
+Some dealers who were delta-hedging complex "exotic" options -- such as "range forwards," which combine caps and floors on interest rates -- were especially hard hit by the turmoil, traders say.
+"The day-to-day whipsaws in the market were so huge that these hedges became very unstable," says a derivatives dealer at one New York bank.
+To be sure, traders say delta-hedging wasn't the main source of selling in the markets' fall.
+That dubious honor goes to the huge dumping by speculators of bond and stock holdings that were purchased with borrowed money.
+While experts may agree that delta-hedging doesn't actually cause crashes, in some cases it can speed the decline once prices slip.
+By the same token, delta-hedging also tends to buoy prices once they turn upwhich may be one reason why markets correct so suddenly these days.
+Michael R. Sesit contributed to this article.
+A dealer a call option that gives the customer the right to buy $1 million in 20-year Treasurys at today's price over six months.
+The customer pays $21,00 for the option.
+Since the dealer will owe the customer money if bond prices rise, he initiates a delta-hedge by buying about $509,000 of Treasury bonds.
+Dealer Sells Bonds -- Beacuse the hedge loses money the dealer unwinds it by selling Treasury bonds.
+For instance, a 0.25 percentage-point rise would require him to sell about $152,000 in bonds.
+A further 0.5 point spike in rates would cause him to sell another $357,000 in Treasury bonds, virtually unwinding the entire hedge.
+Dealer Buys Bonds -- Because the hedge is no longer big enough, the dealer adds to it by buying Treasury bonds.
+A 0.25 percentage-point drop in rates would require him to buy an additional $168,000 in bonds.
+A further 0.5 point rise would mean purchasing another $291,000 in bonds.
+For options sellers like this dealer, delta-hedging means always chasing after the price moves in the market.
+If volatility erupts unexpectedly, his hedge may fall behind and exacerbate the very losses it was designed to cushion.

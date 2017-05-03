@@ -1,10 +1,10 @@
 import json
-import sys
 import nltk
 from nltk.stem import PorterStemmer
 import itertools
 import os
 import pickle
+import argparse
 
 class CoherenceFeatureBuilder():
     def __init__(self):
@@ -33,12 +33,15 @@ class CoherenceFeatureBuilder():
                             's2': int(line[33])
                             }
                     relations.append(relation)
+            print 'Number of relations:', len(relations)
             return {"relations": relations}
 
     def extract_relation(self, relation, arg, feature_type):
         # TODO try other stemmers
         stemmer = PorterStemmer()
+        #print relation[arg]
         tokens = nltk.word_tokenize(relation[arg])
+        #print tokens
         terms = [stemmer.stem(_[0]) for _ in nltk.pos_tag(tokens) if _[1] in self.open_class_words]
 
         if feature_type == "argument":
@@ -114,16 +117,41 @@ class CoherenceFeatureBuilder():
         return final_features
 
 if __name__ == "__main__":
-    input_dir = sys.argv[1]#'data/wsj_2300.txt.pipe'
-    output_dir = sys.argv[2]
-    parse = False#True
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('inputarg',
+                        help='Input file or directory/folder containing input files (.pipe)')
+    parser.add_argument('--skipparse', '-p', action='store_true',
+                        help='Skip creation of .json from .pipe files')
+    args = parser.parse_args()
+    
+    #input_dir = sys.argv[1]#'data/wsj_2300.txt.pipe'
+    #output_dir = sys.argv[2]
+    fileslist = []
+    workingdir = None
+    
+    if os.path.isdir(args.inputarg):
+        fileslist.extend([fname for fname in os.listdir(args.inputarg) if fname.endswith('.pipe')])
+        workingdir = args.inputarg
+    else:
+        workingdir, filename = os.path.split(args.inputarg)
+        fileslist.append(filename)
+
+    print workingdir
+    print fileslist
+    #parse = False#True
     features = {}
-    for filename in os.listdir(os.path.join('data', input_dir)):
-        print "Processing file: %s"%filename
+    #for filename in os.listdir(os.path.join('data', input_dir)):
+    for filename in fileslist:
+        
+        print "Processing file:`%s" % filename
         cb = CoherenceFeatureBuilder() 
-        op_file = os.path.join('data', output_dir, filename+'.json')
-        if parse:
-            relations = cb.read_input(os.path.join('data', input_dir, filename))
+        #op_file = os.path.join('data', output_dir, filename+'.json')
+        op_file = os.path.join(workingdir, filename + '.json')
+        
+        if not args.skipparse:
+            #relations = cb.read_input(os.path.join('data', input_dir, filename))
+            relations = cb.read_input(os.path.join(workingdir, filename))
             f = open(op_file, 'w')
             f.write(json.dumps(relations, indent=4))
         else:
@@ -137,5 +165,8 @@ if __name__ == "__main__":
             print k,"==>" ,cb.relation_matrix[k]
         '''
         features[filename] = cb.compute_sequence_probabilities(['argument', 'type'])
-    pickle.dump(features, open('data/%s_features.pkl'%input_dir, 'wb'))
 
+    #pickle.dump(features, open('data/%s_features.pkl'%input_dir, 'wb'))
+    if len(fileslist) > 0:
+        with open(os.path.join(workingdir, filename + '.features.pkl'), 'wb') as pklf:
+            pickle.dump(features, pklf)
