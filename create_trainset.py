@@ -23,11 +23,17 @@ if __name__=='__main__':
     parser.add_argument('dirlist', nargs='+', help='List of directories containing files')
     parser.add_argument('--level', type=int, choices=(1,2), default=1, help='Level of discourse relation tags')
     parser.add_argument('--pfilename', '-f', default='trainset.pkl', help='Name of output pickle file to store training set')
+    parser.add_argument('--features', default='all', type=str, help='all: argument+type, arg: argument, type: discourse types')
 
     args = parser.parse_args()
 
     features = {}
     
+    if args.features == 'all':
+        feature_types = ['argument', 'type']
+    else:
+        feature_types = [args.features]
+
     for rootdir in args.dirlist:
 
         fileslist = [fname for fname in os.listdir(rootdir) if '.perm' in fname]
@@ -75,10 +81,10 @@ if __name__=='__main__':
             
             if filename.endswith('.perm-1'):
                 # the original text, so assumed to be coherent
-                features[filepath] = (cb.compute_sequence_probabilities(), 1)
+                features[filepath] = (cb.compute_sequence_probabilities(feature_types), 1)
             else:
                 # else incoherent, so score 0 (only binary for now)
-                features[filepath] = (cb.compute_sequence_probabilities(), 0)
+                features[filepath] = (cb.compute_sequence_probabilities(feature_types), 0)
 
             print 'Done.'
 
