@@ -96,7 +96,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('inputarg',
                         help='Input file or directory/folder containing input files (.pipe)')
-    parser.add_argument('--parsepipe', '-p', default=True, action='store_true',
+    parser.add_argument('--skipparse', '-p', action='store_true',
                         help='Skip creation of .json from .pipe files')
     args = parser.parse_args()
     
@@ -125,7 +125,7 @@ if __name__ == "__main__":
         #op_file = os.path.join('data', output_dir, filename+'.json')
         op_file = os.path.join(workingdir, filename + '.json')
         
-        if args.parsepipe:
+        if not args.skipparse:
             #relations = cb.read_input(os.path.join('data', input_dir, filename))
             relations = cb.read_input(os.path.join(workingdir, filename))
             f = open(op_file, 'w')
