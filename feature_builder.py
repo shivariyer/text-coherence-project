@@ -35,12 +35,13 @@ class CoherenceFeatureBuilder():
                             's2': int(line[33])
                             }
                     relations.append(relation)
+            print 'Number of relations:', len(relations)
             return {"relations": relations}
 
     def extract_relation(self, relation, arg):
         # TODO try other stemmers
         stemmer = PorterStemmer()
-        print relation[arg]
+        #print relation[arg]
         tokens = nltk.word_tokenize(relation[arg])
         #print tokens
         terms = [stemmer.stem(_[0]) for _ in nltk.pos_tag(tokens) if _[1] in self.open_class_words]
