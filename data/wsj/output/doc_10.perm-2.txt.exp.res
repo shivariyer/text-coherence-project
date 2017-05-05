@@ -1,0 +1,13 @@
+32..34|Temporal
+119..124|Temporal
+1329..1334|Temporal
+1703..1709|Comparison
+2233..2238|Comparison
+2897..2900|Expansion
+3340..3343|Comparison
+3422..3430|Comparison
+3517..3521|Expansion
+3893..3899|Temporal
+4229..4232|Expansion
+4321..4326|Temporal
+4749..4759|Expansion

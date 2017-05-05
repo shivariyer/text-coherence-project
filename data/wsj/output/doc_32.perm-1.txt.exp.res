@@ -1,0 +1,11 @@
+321..325|Expansion
+2111..2117|Expansion
+2492..2503|Expansion
+3224..3231|Comparison
+3737..3748|Expansion
+3950..3957|Comparison
+3959..3961|Contingency
+4973..4977|Contingency
+4993..5004|Comparison
+5914..5916|Contingency
+5954..5963|Expansion

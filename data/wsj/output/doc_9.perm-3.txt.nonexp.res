@@ -1,0 +1,1 @@
+Implicit|||||||||||Expansion|||||||||||3007..3099|27|" Once you could make a living working in a store , " says Ms. Kennedy , " but you ca n't anymore . "||||||||3102..3148|28|Their presentation : " Some Things Never Change . "|||||||||||||

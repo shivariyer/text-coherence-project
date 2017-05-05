@@ -1,0 +1,11 @@
+75..79|Expansion
+440..447|Contingency
+583..587|Temporal
+703..707|Temporal
+1004..1016|Expansion
+1099..1104|Contingency
+2596..2600|Expansion
+2707..2712|Temporal
+2802..2805|Expansion
+3140..3142|Contingency
+3878..3885|Contingency

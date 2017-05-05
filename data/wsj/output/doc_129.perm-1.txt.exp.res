@@ -1,0 +1,12 @@
+574..576|Temporal
+779..783|Expansion
+1117..1120|Comparison
+1161..1168|Expansion
+2866..2870|Expansion
+3354..3356|Contingency
+3850..3857|Comparison
+4411..4418|Comparison
+5187..5191|Expansion
+5507..5511|Temporal
+5547..5552|Temporal
+5910..5912|Temporal

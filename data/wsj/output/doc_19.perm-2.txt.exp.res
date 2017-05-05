@@ -1,0 +1,14 @@
+12..16|Expansion
+148..155|Contingency
+317..325|Comparison
+767..772|Temporal
+1000..1004|Expansion
+1424..1427|Comparison
+1693..1696|Comparison
+2453..2456|Comparison
+2653..2660|Contingency
+2713..2717|Temporal
+2873..2876|Expansion
+3286..3289|Expansion
+3499..3505|Expansion
+3871..3874|Expansion

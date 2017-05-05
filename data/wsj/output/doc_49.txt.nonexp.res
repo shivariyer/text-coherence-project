@@ -1,0 +1,1 @@
+EntRel||||||||||||||||||||||400..505|3|The step-by-step process , a real-life take on the Game of Life , is not unique to one chunk of the Midwest .||||||||508..679|4|Precertification reviews , current and proposed under the Clinton plan and others , are already raising the blood pressure of busy physicians and anxious patients nationwide .|||||||||||||

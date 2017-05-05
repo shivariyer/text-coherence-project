@@ -1,0 +1,11 @@
+73..76|Expansion
+361..363|Contingency
+1343..1346|Comparison
+1678..1682|Temporal
+1979..1982|Expansion
+2263..2269|Expansion
+2280..2283|Comparison
+2305..2309|Expansion
+3089..3092|Expansion
+3628..3631|Comparison
+3852..3855|Comparison

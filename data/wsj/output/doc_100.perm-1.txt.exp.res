@@ -1,0 +1,17 @@
+144..147|Comparison
+335..338|Expansion
+692..698|Temporal
+1930..1938|Expansion
+2040..2043|Comparison
+2426..2429|Comparison
+2433..2437|Expansion
+2474..2481|Contingency
+2537..2540|Expansion
+3187..3193|Comparison
+3416..3423|Comparison
+3527..3534|Contingency
+3931..3935|Expansion
+4012..4016|Temporal
+4051..4057|Temporal
+4342..4345|Comparison
+4504..4510|Comparison

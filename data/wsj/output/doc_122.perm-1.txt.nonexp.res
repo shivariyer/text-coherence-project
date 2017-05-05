@@ -1,0 +1,1 @@
+Implicit|||||||||||Expansion|||||||||||1773..1899|11|But there remains a question of how much growth there is , realistically , given Russia 's severe economic and political problems .||||||||1902..1979|12|" Clearly , Russia needs a modern telecommunications network – but at what cost ?|||||||||||||

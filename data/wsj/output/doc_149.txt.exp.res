@@ -1,0 +1,11 @@
+196..199|Expansion
+293..297|Temporal
+568..571|Expansion
+721..725|Expansion
+822..825|Expansion
+833..837|Temporal
+1030..1034|Temporal
+1214..1217|Comparison
+1793..1796|Expansion
+2128..2133|Temporal
+2402..2406|Expansion

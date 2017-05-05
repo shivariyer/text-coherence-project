@@ -1,0 +1,17 @@
+297..300|Expansion
+301..306|Contingency
+1237..1240|Comparison
+1241..1245|Temporal
+1295..1298|Expansion
+1659..1666|Contingency
+1947..1949|Contingency
+2579..2583|Expansion
+2673..2676|Comparison
+3272..3274|Contingency
+3445..3449|Expansion
+3476..3483|Contingency
+4101..4110|Temporal
+4425..4429|Expansion
+4701..4704|Expansion
+5006..5014|Contingency
+5293..5296|Comparison

@@ -1,0 +1,15 @@
+0..8|Comparison
+492..496|Contingency
+598..601|Comparison
+842..848|Expansion
+1047..1051|Temporal
+1113..1121|Comparison
+1218..1222|Expansion
+1700..1706|Expansion
+1909..1914|Comparison
+2113..2121|Comparison
+2309..2316|Contingency
+2526..2528|Contingency
+2698..2701|Expansion
+2819..2824|Comparison
+3053..3056|Comparison

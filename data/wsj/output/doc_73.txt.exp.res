@@ -1,0 +1,11 @@
+1233..1236|Comparison
+1540..1543|Expansion
+1953..1956|Expansion
+2330..2334|Temporal
+2657..2663|Expansion
+2674..2677|Comparison
+2699..2703|Expansion
+3334..3337|Comparison
+3632..3635|Comparison
+3799..3802|Expansion
+3978..3980|Contingency

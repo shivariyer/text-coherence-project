@@ -1,0 +1,12 @@
+968..972|Expansion
+1602..1609|Comparison
+2583..2585|Temporal
+2788..2792|Expansion
+3767..3769|Temporal
+4515..4517|Contingency
+4648..4652|Expansion
+4788..4792|Temporal
+4828..4833|Temporal
+5444..5447|Comparison
+5488..5495|Expansion
+6180..6187|Comparison

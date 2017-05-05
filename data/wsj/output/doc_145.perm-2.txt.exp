@@ -1,0 +1,9 @@
+conn_lc:and conn:And conn_POS:CC xxx£
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then xxx£
+conn_lc:and conn:And conn_POS:CC xxx£
+conn_lc:because conn:because conn_POS:IN with_prev_full:bad_because xxx£
+conn_lc:and conn:And conn_POS:CC xxx£
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then xxx£
+conn_lc:but conn:But conn_POS:CC xxx£
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if xxx£
+conn_lc:also conn:also conn_POS:RB with_prev_full:it_also xxx£

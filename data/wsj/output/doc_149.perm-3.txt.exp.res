@@ -1,0 +1,11 @@
+477..480|Expansion
+785..788|Expansion
+841..844|Comparison
+1726..1729|Expansion
+1737..1741|Temporal
+1977..1981|Expansion
+2205..2208|Expansion
+2233..2237|Temporal
+2639..2643|Temporal
+2701..2705|Expansion
+3079..3084|Temporal

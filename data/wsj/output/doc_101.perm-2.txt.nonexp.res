@@ -1,0 +1,1 @@
+Implicit|||||||||||Expansion|||||||||||10794..10829|100|" I 'm monitoring my stocks every day .||||||||10832..10914|101|" I do n't have the answer to the question ' Is this the beginning of a bear market ? ' "|||||||||||||

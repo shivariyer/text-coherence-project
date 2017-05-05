@@ -1,0 +1,17 @@
+169..178|Temporal
+297..300|Comparison
+1118..1121|Expansion
+1652..1655|Comparison
+1656..1660|Temporal
+1710..1713|Expansion
+1909..1911|Contingency
+2335..2342|Contingency
+2824..2828|Expansion
+2866..2870|Expansion
+3257..3265|Contingency
+3440..3442|Contingency
+4384..4388|Expansion
+4415..4422|Contingency
+4689..4692|Expansion
+4693..4698|Contingency
+5430..5433|Comparison

@@ -1,0 +1,14 @@
+246..249|Expansion
+468..474|Expansion
+552..555|Expansion
+1051..1059|Comparison
+1207..1211|Expansion
+1545..1548|Comparison
+2289..2292|Comparison
+2409..2413|Expansion
+2545..2552|Contingency
+2743..2750|Contingency
+2803..2807|Temporal
+3377..3382|Temporal
+3651..3654|Comparison
+3830..3833|Expansion

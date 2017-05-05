@@ -1,0 +1,12 @@
+conn:also conn_POS:RB sent_pos:2 prev1:prices prev1_POS:NNS with_prev1_full:prices_also with_prev1_POS_full:NNS_RB prev2:Frankfurt prev2_POS:NNP with_prev2_full:Frankfurt_also with_prev2_POS_full:NNP_RB NA
+conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:slide prev2_POS:NN with_prev2_full:slide_as with_prev2_POS_full:NN_IN NA
+conn:also conn_POS:RB sent_pos:1 prev1:Investors prev1_POS:NNS with_prev1_full:Investors_also with_prev1_POS_full:NNS_RB NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:expected prev2_POS:VBN with_prev2_full:expected_but with_prev2_POS_full:VBN_CC NA
+conn:instead conn_POS:RB prev1:who prev1_POS:WP with_prev1_full:who_instead with_prev1_POS_full:WP_RB prev2:, prev2_POS:, with_prev2_full:,_instead with_prev2_POS_full:,_RB NA
+conn:However conn_POS:RB sent_pos:0 NA
+conn:then conn_POS:RB sent_pos:1 prev1:Trading prev1_POS:NNP with_prev1_full:Trading_then with_prev1_POS_full:NNP_RB NA
+conn:until conn_POS:IN prev1:range prev1_POS:NN with_prev1_full:range_until with_prev1_POS_full:NN_IN prev2:narrow prev2_POS:JJ with_prev2_full:narrow_until with_prev2_POS_full:JJ_IN NA
+conn:as conn_POS:IN prev1:mixed prev1_POS:JJ with_prev1_full:mixed_as with_prev1_POS_full:JJ_IN prev2:narrowly prev2_POS:RB with_prev2_full:narrowly_as with_prev2_POS_full:RB_IN NA
+conn:however conn_POS:RB prev1:; prev1_POS:: with_prev1_full:;_however with_prev1_POS_full::_RB prev2:chips prev2_POS:NNS with_prev2_full:chips_however with_prev2_POS_full:NNS_RB NA
+conn:as conn_POS:IN prev1:trading prev1_POS:NN with_prev1_full:trading_as with_prev1_POS_full:NN_IN prev2:pre-holiday prev2_POS:JJ with_prev2_full:pre-holiday_as with_prev2_POS_full:JJ_IN NA
+conn:also conn_POS:RB prev1:rates prev1_POS:NNS with_prev1_full:rates_also with_prev1_POS_full:NNS_RB prev2:interest prev2_POS:NN with_prev2_full:interest_also with_prev2_POS_full:NN_RB NA

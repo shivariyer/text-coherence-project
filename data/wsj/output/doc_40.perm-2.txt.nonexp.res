@@ -1,0 +1,1 @@
+Implicit|||||||||||Expansion|||||||||||6676..6799|66|Each winter , as blizzards roared across the Great Plains , he covered as many as eight high-school basketball games an issue .||||||||6802..6819|67|" It 's scary , huh ? "|||||||||||||

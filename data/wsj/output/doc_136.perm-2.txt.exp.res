@@ -1,0 +1,16 @@
+0..5|Comparison
+265..271|Expansion
+391..401|Expansion
+479..482|Expansion
+513..516|Comparison
+810..815|Temporal
+920..924|Expansion
+2045..2048|Expansion
+2239..2244|Temporal
+2350..2354|Expansion
+2602..2605|Expansion
+2718..2727|Temporal
+2850..2853|Comparison
+3955..3959|Temporal
+3998..4009|Expansion
+4595..4600|Temporal

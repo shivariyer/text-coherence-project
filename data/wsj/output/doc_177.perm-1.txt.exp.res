@@ -1,0 +1,17 @@
+428..431|Expansion
+1178..1180|Contingency
+1362..1365|Expansion
+1790..1794|Temporal
+1965..1969|Expansion
+2069..2072|Expansion
+2998..3002|Contingency
+3480..3483|Expansion
+3834..3836|Contingency
+4251..4254|Expansion
+4290..4293|Comparison
+4570..4572|Contingency
+4677..4680|Comparison
+4692..4704|Comparison
+4965..4968|Comparison
+5215..5219|Expansion
+5610..5612|Contingency

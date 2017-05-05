@@ -1,0 +1,16 @@
+838..842|Expansion
+977..981|Temporal
+1069..1072|Comparison
+1609..1612|Expansion
+1702..1705|Comparison
+2211..2222|Contingency
+2437..2444|Contingency
+2504..2508|Temporal
+2577..2580|Expansion
+3236..3239|Expansion
+3969..3973|Expansion
+4221..4228|Contingency
+4272..4276|Contingency
+4524..4526|Contingency
+4903..4905|Expansion
+4941..4944|Expansion

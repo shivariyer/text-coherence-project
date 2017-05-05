@@ -1,0 +1,17 @@
+0..11|Comparison
+1304..1307|Expansion
+1543..1546|Comparison
+1782..1784|Contingency
+2416..2421|Contingency
+2660..2662;2688..2692|Expansion
+2998..3002|Expansion
+3439..3441|Temporal
+3791..3796|Contingency
+3849..3855|Expansion
+3866..3868|Contingency
+4013..4016|Comparison
+4262..4267|Temporal
+4545..4548|Comparison
+4585..4587|Contingency
+4950..4953|Expansion
+5011..5015|Expansion

@@ -1,0 +1,12 @@
+349..354|Temporal
+536..539|Expansion
+855..859|Expansion
+1105..1110|Temporal
+1476..1480|Temporal
+2224..2227|Comparison
+2228..2232|Temporal
+2473..2478|Comparison
+2993..2995|Temporal
+4333..4340|Expansion
+4904..4909|Temporal
+5284..5287|Comparison

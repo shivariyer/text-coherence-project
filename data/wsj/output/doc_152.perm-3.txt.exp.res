@@ -1,0 +1,10 @@
+367..374|Comparison
+594..601|Comparison
+954..957|Comparison
+1653..1656|Comparison
+2150..2155|Temporal
+2993..3000|Contingency
+3058..3061|Expansion
+3280..3283|Comparison
+3456..3463|Comparison
+3748..3759|Contingency

@@ -1,0 +1,11 @@
+154..158|Contingency
+478..489|Comparison
+1812..1823|Expansion
+2113..2122|Expansion
+2582..2589|Comparison
+3896..3903|Comparison
+3905..3907|Contingency
+4135..4137|Contingency
+4409..4415|Expansion
+5086..5097|Expansion
+5671..5675|Expansion

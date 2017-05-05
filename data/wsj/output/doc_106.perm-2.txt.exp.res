@@ -1,0 +1,11 @@
+104..108|Contingency
+157..160|Expansion
+1008..1011|Expansion
+1128..1131|Expansion
+1539..1542|Expansion
+1612..1614|Contingency
+1862..1868|Expansion
+2067..2069|Contingency
+2227..2230|Expansion
+2756..2764|Comparison
+2930..2936|Comparison

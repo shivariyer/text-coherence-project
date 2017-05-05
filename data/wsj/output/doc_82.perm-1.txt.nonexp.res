@@ -1,0 +1,1 @@
+Implicit|||||||||||Contingency|||||||||||4675..4757|29|But some clinic operators who have weathered blockades and worse are still unhappy .||||||||4760..4795|30|Why does n't the FBI prosecute that ? "|||||||||||||

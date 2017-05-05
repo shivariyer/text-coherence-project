@@ -1,0 +1,10 @@
+16..23|Comparison
+120..123|Comparison
+208..215|Comparison
+705..712|Comparison
+1459..1462|Comparison
+2731..2742|Contingency
+2802..2805|Comparison
+3230..3235|Temporal
+4770..4777|Contingency
+4835..4838|Expansion

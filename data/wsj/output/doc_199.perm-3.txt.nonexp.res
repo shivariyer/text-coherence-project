@@ -1,0 +1,1 @@
+Implicit|||||||||||Comparison|||||||||||2036..2202|15|A large Canadian study sponsored by three major utilities found a link between at least one rare type of leukemia and occupational exposure to electro-magnetic fields .||||||||2205..2288|16|" The mystery is , given the quality of the study , why did n't it emerge very clearly ? "|||||||||||||

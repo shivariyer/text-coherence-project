@@ -1,0 +1,9 @@
+222..227|Temporal
+377..381|Temporal
+475..478|Comparison
+633..636|Comparison
+1018..1021|Expansion
+1172..1176|Temporal
+1646..1648|Contingency
+1681..1684|Expansion
+2228..2235|Contingency

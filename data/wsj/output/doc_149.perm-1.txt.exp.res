@@ -1,0 +1,11 @@
+156..161|Temporal
+346..349|Expansion
+478..481|Expansion
+489..493|Temporal
+776..780|Expansion
+1561..1564|Expansion
+1695..1699|Temporal
+1784..1787|Expansion
+1852..1856|Expansion
+1947..1951|Temporal
+3030..3033|Comparison

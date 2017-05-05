@@ -1,0 +1,3 @@
+conn:also conn_POS:RB prev1:SEC prev1_POS:NNP with_prev1_full:SEC_also with_prev1_POS_full:NNP_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB NA
+conn:also conn_POS:RB prev1:who prev1_POS:WP with_prev1_full:who_also with_prev1_POS_full:WP_RB prev2:dealer prev2_POS:NN with_prev2_full:dealer_also with_prev2_POS_full:NN_RB NA
+conn:until conn_POS:IN prev1:say prev1_POS:VBP with_prev1_full:say_until with_prev1_POS_full:VBP_IN prev2:regulators prev2_POS:NNS with_prev2_full:regulators_until with_prev2_POS_full:NNS_IN NA

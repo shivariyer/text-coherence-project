@@ -1,0 +1,25 @@
+conn:also conn_POS:RB sent_pos:1 prev1:Prudential prev1_POS:NNP with_prev1_full:Prudential_also with_prev1_POS_full:NNP_RB NA
+conn:if conn_POS:IN prev1:paid prev1_POS:VBN with_prev1_full:paid_if with_prev1_POS_full:VBN_IN prev2:get prev2_POS:VB with_prev2_full:get_if with_prev2_POS_full:VB_IN NA
+conn:when conn_POS:WRB prev1:instances prev1_POS:NNS with_prev1_full:instances_when with_prev1_POS_full:NNS_WRB prev2:be prev2_POS:VB with_prev2_full:be_when with_prev2_POS_full:VB_WRB NA
+conn:If conn_POS:IN sent_pos:1 prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN NA
+conn:Instead conn_POS:RB sent_pos:0 NA
+conn:But conn_POS:CC sent_pos:0 NA
+conn:or conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_or with_prev1_POS_full:,_CC prev2:live prev2_POS:VBP with_prev2_full:live_or with_prev2_POS_full:VBP_CC NA
+conn:after conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_after with_prev1_POS_full:,_IN prev2:year prev2_POS:NN with_prev2_full:year_after with_prev2_POS_full:NN_IN NA
+conn:When conn_POS:WRB prev1:`` prev1_POS:`` with_prev1_full:``_When with_prev1_POS_full:``_WRB prev2:: prev2_POS:: with_prev2_full::_When with_prev2_POS_full::_WRB NA
+conn:But conn_POS:CC sent_pos:0 NA
+conn:As_a_result conn_POS:IN_DT_NN sent_pos:0 NA
+conn:before conn_POS:IN prev1:tests prev1_POS:NNS with_prev1_full:tests_before with_prev1_POS_full:NNS_IN prev2:required prev2_POS:VBN with_prev2_full:required_before with_prev2_POS_full:VBN_IN NA
+conn:if conn_POS:IN prev1:even prev1_POS:RB with_prev1_full:even_if with_prev1_POS_full:RB_IN prev2:through prev2_POS:RP with_prev2_full:through_if with_prev2_POS_full:RP_IN NA
+conn:When conn_POS:WRB sent_pos:0 NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:concern prev2_POS:NN with_prev2_full:concern_but with_prev2_POS_full:NN_CC NA
+conn:If..then conn_POS:IN_RB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:failure prev2_POS:NN with_prev2_full:failure_and with_prev2_POS_full:NN_CC NA
+conn:if conn_POS:IN prev1:and prev1_POS:CC with_prev1_full:and_if with_prev1_POS_full:CC_IN prev2:, prev2_POS:, with_prev2_full:,_if with_prev2_POS_full:,_IN NA
+conn:as conn_POS:IN prev1:that prev1_POS:IN with_prev1_full:that_as with_prev1_POS_full:IN_IN prev2:saying prev2_POS:VBG with_prev2_full:saying_as with_prev2_POS_full:VBG_IN NA
+conn:But conn_POS:CC sent_pos:0 NA
+conn:Indeed conn_POS:RB sent_pos:0 NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:tests prev2_POS:NNS with_prev2_full:tests_and with_prev2_POS_full:NNS_CC NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:check prev2_POS:NN with_prev2_full:check_but with_prev2_POS_full:NN_CC NA
+conn:after conn_POS:IN prev1:over prev1_POS:RP with_prev1_full:over_after with_prev1_POS_full:RP_IN prev2:commissions prev2_POS:NNS with_prev2_full:commissions_after with_prev2_POS_full:NNS_IN NA
+conn:until conn_POS:IN prev1:funds prev1_POS:NNS with_prev1_full:funds_until with_prev1_POS_full:NNS_IN prev2:IRA prev2_POS:NNP with_prev2_full:IRA_until with_prev2_POS_full:NNP_IN NA

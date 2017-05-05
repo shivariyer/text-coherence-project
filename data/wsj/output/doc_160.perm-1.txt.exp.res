@@ -1,0 +1,15 @@
+487..495|Expansion
+998..1001|Expansion
+1071..1073|Contingency
+1341..1344|Comparison
+1794..1796|Temporal
+2558..2567|Contingency
+2903..2908|Temporal
+3103..3107|Expansion
+3308..3311|Expansion
+3895..3906|Expansion
+4038..4041|Comparison
+4688..4695|Comparison
+5064..5069|Temporal
+5367..5370|Comparison
+5397..5400|Expansion

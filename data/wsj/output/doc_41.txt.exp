@@ -1,0 +1,21 @@
+conn_lc:after conn:after conn_POS:IN with_prev_full:yesterday_after xxx£
+conn_lc:when conn:When conn_POS:WRB xxx£
+conn_lc:but conn:But conn_POS:CC xxx£
+conn_lc:before conn:before conn_POS:IN with_prev_full:that_before xxx£
+conn_lc:if conn:if conn_POS:IN with_prev_full:tomorrow_if xxx£
+conn_lc:and conn:and conn_POS:CC with_prev_full:,_and xxx£
+conn_lc:when conn:when conn_POS:WRB with_prev_full:happens_when xxx£
+conn_lc:then conn:then conn_POS:RB with_prev_full:and_then xxx£
+conn_lc:but conn:But conn_POS:CC xxx£
+conn_lc:as conn:as conn_POS:IN with_prev_full:error_as xxx£
+conn_lc:while conn:While conn_POS:IN xxx£
+conn_lc:if conn:if conn_POS:IN with_prev_full:happens_if xxx£
+conn_lc:if conn:if conn_POS:IN with_prev_full:what_if xxx£
+conn_lc:but conn:But conn_POS:CC xxx£
+conn_lc:if conn:if conn_POS:IN with_prev_full:what_if xxx£
+conn_lc:as conn:as conn_POS:IN with_prev_full:months_as xxx£
+conn_lc:but conn:But conn_POS:CC xxx£
+conn_lc:if conn:if conn_POS:IN with_prev_full:but_if xxx£
+conn_lc:and conn:and conn_POS:CC with_prev_full:look_and xxx£
+conn_lc:yet conn:Yet conn_POS:CC xxx£
+conn_lc:yet conn:Yet conn_POS:CC xxx£

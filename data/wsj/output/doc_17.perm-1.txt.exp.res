@@ -1,0 +1,10 @@
+403..407|Expansion
+868..872|Expansion
+1211..1217|Comparison
+1859..1862|Comparison
+2301..2305|Expansion
+2879..2882|Comparison
+2967..2970|Expansion
+3138..3145|Contingency
+3435..3438|Comparison
+3670..3673|Expansion

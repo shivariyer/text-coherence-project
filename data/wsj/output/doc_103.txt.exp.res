@@ -1,0 +1,13 @@
+255..264|Temporal
+786..790|Temporal
+854..857|Expansion
+881..883|Temporal
+935..941|Temporal
+977..980|Comparison
+1264..1269|Comparison
+1510..1515|Temporal
+1881..1883|Temporal
+1943..1946|Comparison
+2191..2198|Contingency
+2490..2495|Temporal
+3003..3012|Temporal

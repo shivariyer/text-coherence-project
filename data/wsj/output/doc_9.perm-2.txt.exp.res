@@ -1,0 +1,14 @@
+367..373|Comparison
+1225..1230|Comparison
+1539..1544|Comparison
+1837..1840|Comparison
+1865..1870|Comparison
+1912..1917|Comparison
+2025..2028|Comparison
+2199..2207|Expansion
+2621..2626|Comparison
+2796..2800|Temporal
+2865..2868|Comparison
+2915..2918|Comparison
+3205..3212|Contingency
+4570..4573|Contingency

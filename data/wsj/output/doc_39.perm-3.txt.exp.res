@@ -1,0 +1,11 @@
+1037..1039|Contingency
+1431..1439|Expansion
+1536..1539|Comparison
+1881..1885|Temporal
+2081..2084|Comparison
+2232..2238|Expansion
+2309..2313|Expansion
+2581..2592|Expansion
+3030..3034|Expansion
+3722..3724|Contingency
+4337..4344|Contingency

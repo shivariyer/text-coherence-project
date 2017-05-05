@@ -1,0 +1,9 @@
+74..78|Temporal
+220..224|Temporal
+530..533|Comparison
+622..627|Temporal
+703..706|Comparison
+1069..1071|Contingency
+1104..1107|Expansion
+1454..1457|Expansion
+2228..2235|Contingency

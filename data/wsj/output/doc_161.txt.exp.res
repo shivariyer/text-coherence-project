@@ -1,0 +1,15 @@
+229..233|Temporal
+618..622|Expansion
+677..684|Comparison
+962..966|Expansion
+1314..1321|Comparison
+1384..1392|Expansion
+1803..1807|Expansion
+1866..1873|Contingency
+2099..2105|Temporal
+2151..2154|Comparison
+2216..2222|Temporal
+2381..2384|Comparison
+3222..3227|Temporal
+3668..3675|Contingency
+3973..3975|Temporal

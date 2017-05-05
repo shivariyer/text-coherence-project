@@ -1,0 +1,11 @@
+33..39|Temporal
+287..290|Comparison
+397..402|Temporal
+467..470|Comparison
+780..785|Temporal
+1386..1389|Expansion
+1903..1907|Expansion
+2901..2904|Expansion
+2931..2935|Temporal
+3641..3646|Temporal
+4110..4114|Expansion

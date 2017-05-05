@@ -1,0 +1,12 @@
+490..494|Expansion
+1166..1168|Temporal
+1806..1810|Expansion
+2380..2383|Comparison
+2424..2431|Expansion
+3807..3809|Temporal
+4012..4016|Expansion
+4224..4228|Temporal
+4264..4269|Temporal
+4670..4672|Contingency
+5370..5377|Comparison
+5773..5780|Comparison

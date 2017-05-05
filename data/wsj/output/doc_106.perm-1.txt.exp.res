@@ -1,0 +1,11 @@
+645..648|Expansion
+722..724|Contingency
+1460..1468|Comparison
+1605..1608|Expansion
+1790..1793|Expansion
+1901..1904|Expansion
+2163..2167|Contingency
+2216..2219|Expansion
+2573..2579|Comparison
+2779..2781|Contingency
+2935..2941|Expansion

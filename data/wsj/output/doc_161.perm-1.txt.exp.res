@@ -1,0 +1,15 @@
+0..4|Expansion
+199..202|Comparison
+264..270|Temporal
+345..352|Comparison
+568..572|Expansion
+631..638|Contingency
+864..870|Temporal
+956..960|Expansion
+1284..1291|Comparison
+2020..2023|Comparison
+2308..2313|Temporal
+2442..2450|Expansion
+2747..2751|Temporal
+3123..3125|Temporal
+4178..4185|Contingency

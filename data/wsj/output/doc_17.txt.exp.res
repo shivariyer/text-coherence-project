@@ -1,0 +1,10 @@
+878..884|Comparison
+1046..1049|Comparison
+1308..1315|Contingency
+2200..2204|Expansion
+2678..2681|Comparison
+2995..2998|Expansion
+3252..3256|Expansion
+3584..3588|Expansion
+4276..4279|Comparison
+4394..4397|Expansion

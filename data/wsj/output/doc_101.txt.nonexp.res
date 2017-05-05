@@ -1,0 +1,1 @@
+Implicit|||||||||||Expansion|||||||||||589..635|8|And he intends to continue to cut his holdings .||||||||638..720|9|" I do n't have the answer to the question ' Is this the beginning of a bear market ? ' "|||||||||||||

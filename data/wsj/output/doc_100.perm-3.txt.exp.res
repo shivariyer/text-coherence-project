@@ -1,0 +1,17 @@
+665..668|Comparison
+672..676|Expansion
+713..720|Contingency
+818..821|Comparison
+919..923|Expansion
+1166..1173|Comparison
+1277..1284|Contingency
+1850..1856|Comparison
+2044..2050|Temporal
+2573..2579|Comparison
+2635..2638|Expansion
+3082..3085|Expansion
+3446..3450|Temporal
+3485..3491|Temporal
+3650..3653|Comparison
+4231..4239|Expansion
+4341..4344|Comparison

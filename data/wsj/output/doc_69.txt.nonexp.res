@@ -1,0 +1,1 @@
+Implicit|||||||||||Expansion|||||||||||10340..10443|75|Leaving the house , Ms. Harel steps into a bitterly cold afternoon , an expression of despair on her face .||||||||10446..10487|76|" Do you know what makes me really scared ? "|||||||||||||

@@ -1,0 +1,11 @@
+186..196|Expansion
+407..410|Comparison
+791..795|Expansion
+1146..1150|Expansion
+1598..1600|Contingency
+1983..1986|Expansion
+2049..2055|Expansion
+2514..2525|Expansion
+2603..2605|Temporal
+2978..2989|Expansion
+3556..3560|Expansion

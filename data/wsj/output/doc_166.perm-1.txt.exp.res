@@ -1,0 +1,14 @@
+262..264|Contingency
+429..433|Expansion
+487..489|Contingency
+519..522|Comparison
+903..910|Contingency
+1489..1492|Comparison
+1596..1602|Comparison
+1838..1845|Comparison
+2038..2043|Temporal
+2170..2176|Comparison
+2805..2808|Expansion
+3266..3270|Temporal
+4613..4617|Expansion
+4700..4709|Contingency

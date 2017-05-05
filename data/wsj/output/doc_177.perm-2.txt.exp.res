@@ -1,0 +1,17 @@
+688..690|Contingency
+864..867|Expansion
+946..950|Temporal
+2206..2210|Expansion
+2536..2539|Comparison
+2772..2774|Contingency
+3107..3110|Comparison
+3122..3134|Comparison
+3137..3139|Contingency
+3325..3329|Expansion
+3429..3432|Expansion
+3648..3651|Expansion
+4476..4480|Contingency
+4657..4659|Contingency
+5497..5500|Comparison
+5783..5786|Expansion
+5975..5978|Expansion

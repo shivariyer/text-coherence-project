@@ -1,0 +1,13 @@
+930..932|Contingency
+1300..1309|Expansion
+3282..3286|Expansion
+3731..3734|Expansion
+3878..3880|Contingency
+4039..4041|Contingency
+4078..4089|Expansion
+4204..4213|Contingency
+4325..4330|Temporal
+4391..4397|Expansion
+4475..4480|Temporal
+4871..4888|Comparison
+5574..5576|Contingency

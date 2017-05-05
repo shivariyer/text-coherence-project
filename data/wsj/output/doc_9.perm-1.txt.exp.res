@@ -1,0 +1,14 @@
+1611..1619|Expansion
+1815..1820|Comparison
+2264..2267|Comparison
+2316..2320|Temporal
+2385..2388|Comparison
+2621..2626|Comparison
+2668..2673|Comparison
+3099..3104|Comparison
+3297..3300|Contingency
+3636..3641|Comparison
+3847..3854|Contingency
+4039..4045|Comparison
+4073..4076|Comparison
+4911..4914|Comparison

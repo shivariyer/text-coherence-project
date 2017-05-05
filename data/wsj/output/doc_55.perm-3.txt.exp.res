@@ -1,0 +1,15 @@
+26..30|Temporal
+134..137|Expansion
+190..193|Comparison
+1582..1586|Expansion
+1998..2002|Expansion
+2130..2132|Expansion
+2312..2318|Temporal
+2587..2589|Contingency
+2905..2909|Expansion
+3094..3097|Comparison
+3321..3326|Temporal
+3458..3460|Contingency
+3491..3494|Expansion
+3801..3808|Comparison
+3908..3911|Comparison

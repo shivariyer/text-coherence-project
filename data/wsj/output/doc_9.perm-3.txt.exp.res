@@ -1,0 +1,14 @@
+207..213|Comparison
+1477..1482|Comparison
+1933..1936|Contingency
+2228..2231|Comparison
+2488..2491|Comparison
+2619..2624|Comparison
+2979..2982|Comparison
+3008..3012|Temporal
+3077..3080|Comparison
+3242..3247|Comparison
+3675..3682|Contingency
+4300..4305|Comparison
+4347..4352|Comparison
+4495..4503|Expansion

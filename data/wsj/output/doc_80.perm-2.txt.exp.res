@@ -1,0 +1,15 @@
+142..147|Temporal
+212..215|Expansion
+1431..1436|Temporal
+1672..1679|Comparison
+1816..1818|Contingency
+1842..1846|Temporal
+2079..2084|Temporal
+2369..2372|Comparison
+2497..2502|Comparison
+2828..2831|Expansion
+2990..2992|Contingency
+3287..3289|Contingency
+3419..3421|Contingency
+4283..4288|Temporal
+4824..4828|Temporal

@@ -1,0 +1,2 @@
+Implicit|||||||||||Expansion|||||||||||0..226|0|Seeking to control the tidal wave of celebrity for its antidepressant drug Prozac , Eli Lilly & Co. is launching an unusual ad campaign to deplore the media 's role in exaggerating the drug 's power and making light of depression .||||||||229..263|1|Capitalism can work out its kinks ! "|||||||||||||
+EntRel||||||||||||||||||||||229..263|1|Capitalism can work out its kinks ! "||||||||265..307|2|and Edgar Allan Poe saying " Hello , birdie ! "|||||||||||||

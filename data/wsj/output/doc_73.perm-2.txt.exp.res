@@ -1,0 +1,11 @@
+5..8|Expansion
+429..432|Comparison
+1600..1606|Expansion
+1617..1620|Comparison
+1642..1646|Expansion
+2465..2468|Expansion
+3349..3351|Contingency
+3663..3666|Comparison
+3802..3805|Expansion
+3975..3979|Temporal
+4067..4070|Comparison

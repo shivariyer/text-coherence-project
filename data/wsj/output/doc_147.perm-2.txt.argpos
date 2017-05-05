@@ -1,0 +1,15 @@
+conn:if conn_POS:IN prev1:even prev1_POS:RB with_prev1_full:even_if with_prev1_POS_full:RB_IN prev2:usage prev2_POS:NN with_prev2_full:usage_if with_prev2_POS_full:NN_IN NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:time prev2_POS:NN with_prev2_full:time_and with_prev2_POS_full:NN_CC NA
+conn:But conn_POS:CC sent_pos:0 NA
+conn:though conn_POS:IN sent_pos:1 prev1:Even prev1_POS:RB with_prev1_full:Even_though with_prev1_POS_full:RB_IN NA
+conn:also conn_POS:RB sent_pos:1 prev1:They prev1_POS:PRP with_prev1_full:They_also with_prev1_POS_full:PRP_RB NA
+conn:since conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_since with_prev1_POS_full:,_IN prev2:giant prev2_POS:NN with_prev2_full:giant_since with_prev2_POS_full:NN_IN NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:Prozac prev2_POS:NNP with_prev2_full:Prozac_and with_prev2_POS_full:NNP_CC NA
+conn:But conn_POS:CC sent_pos:0 NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:directly prev2_POS:RB with_prev2_full:directly_but with_prev2_POS_full:RB_CC NA
+conn:also conn_POS:RB sent_pos:1 prev1:He prev1_POS:PRP with_prev1_full:He_also with_prev1_POS_full:PRP_RB NA
+conn:If conn_POS:IN prev1:`` prev1_POS:`` with_prev1_full:``_If with_prev1_POS_full:``_IN prev2:: prev2_POS:: with_prev2_full::_If with_prev2_POS_full::_IN NA
+conn:also conn_POS:RB sent_pos:2 prev1:campaign prev1_POS:NN with_prev1_full:campaign_also with_prev1_POS_full:NN_RB prev2:The prev2_POS:DT with_prev2_full:The_also with_prev2_POS_full:DT_RB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:experience prev2_POS:NN with_prev2_full:experience_and with_prev2_POS_full:NN_CC NA
+conn:and conn_POS:CC prev1:exists prev1_POS:VBZ with_prev1_full:exists_and with_prev1_POS_full:VBZ_CC prev2:need prev2_POS:NN with_prev2_full:need_and with_prev2_POS_full:NN_CC NA
+conn:when conn_POS:WRB prev1:and prev1_POS:CC with_prev1_full:and_when with_prev1_POS_full:CC_WRB prev2:exists prev2_POS:VBZ with_prev2_full:exists_when with_prev2_POS_full:VBZ_WRB NA

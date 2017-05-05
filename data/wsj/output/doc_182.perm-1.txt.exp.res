@@ -1,0 +1,9 @@
+0..8|Expansion
+141..143|Contingency
+266..270|Expansion
+756..760|Expansion
+1437..1440|Comparison
+1564..1568|Expansion
+1677..1681|Temporal
+1921..1924|Expansion
+1994..1996|Contingency

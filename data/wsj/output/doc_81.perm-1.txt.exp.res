@@ -1,0 +1,16 @@
+270..273|Comparison
+407..411|Expansion
+840..846|Comparison
+1340..1343|Expansion
+1452..1461|Expansion
+1783..1786|Expansion
+2055..2058|Comparison
+2142..2145|Expansion
+2560..2563|Comparison
+2564..2566|Temporal
+2886..2889|Comparison
+2997..2999|Contingency
+4033..4037|Expansion
+4415..4421|Temporal
+4986..4989|Expansion
+5275..5287|Expansion

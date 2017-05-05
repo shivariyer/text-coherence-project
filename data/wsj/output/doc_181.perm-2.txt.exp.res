@@ -1,0 +1,12 @@
+145..149|Temporal
+386..389|Expansion
+804..808|Temporal
+915..919|Temporal
+1672..1675|Expansion
+1904..1909|Temporal
+1982..1989|Comparison
+2296..2300|Expansion
+2415..2427|Comparison
+2606..2609|Expansion
+2647..2651|Expansion
+2994..3002|Expansion

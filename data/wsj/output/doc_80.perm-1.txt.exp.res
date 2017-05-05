@@ -1,0 +1,15 @@
+167..169|Contingency
+346..351|Temporal
+1242..1244|Contingency
+1330..1337|Comparison
+1523..1527|Temporal
+1890..1893|Expansion
+1938..1943|Comparison
+2483..2486|Comparison
+3020..3022|Contingency
+3046..3050|Temporal
+3836..3838|Contingency
+3980..3985|Temporal
+4129..4134|Temporal
+4419..4424|Temporal
+4489..4492|Expansion

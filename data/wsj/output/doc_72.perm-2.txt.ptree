@@ -1,0 +1,28 @@
+(ROOT
+  (NP
+    (NP (NNS c-Yields))
+    (, ,)
+    (VP (VBN adjusted)
+      (PP (IN for)
+        (NP (JJ constant) (NN maturity))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (VBN Annualized) (NN interest) (NNS rates))
+      (PP (IN on)
+        (NP (JJ certain) (NNS investments)))
+      (SBAR (IN as)
+        (S
+          (VP (VBD reported)
+            (PP (IN by)
+              (NP (DT the) (NNP Federal) (NNP Reserve) (NNP Board)))
+            (PP (IN on)
+              (NP (DT a) (JJ weekly-average) (NN basis)))))))
+    (: :)
+    (NP
+      (NP (NNP Wednesday))
+      (NP (NNP February) (CD 2) (, ,) (CD 1994)))
+    (. .)))
+

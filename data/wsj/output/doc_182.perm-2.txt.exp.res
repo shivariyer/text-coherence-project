@@ -1,0 +1,9 @@
+626..628|Contingency
+726..729|Comparison
+850..854|Expansion
+905..909|Expansion
+1018..1022|Temporal
+1504..1507|Expansion
+1577..1579|Contingency
+1857..1861|Expansion
+1983..1991|Expansion

@@ -1,0 +1,1 @@
+Implicit|||||||||||Contingency|||||||||||5968..6194|40|He adds that , given the FBI 's now-abandoned practice of infiltrating leftist political groups , it is leery of launching what could be perceived as a partisan investigation of antiabortion organizations such as Operation Rescue .||||||||6197..6232|41|Why does n't the FBI prosecute that ? "|||||||||||||

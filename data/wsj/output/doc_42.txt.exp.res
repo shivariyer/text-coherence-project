@@ -1,0 +1,14 @@
+257..261|Expansion
+663..670|Expansion
+1007..1009|Temporal
+1426..1428|Contingency
+2171..2178|Contingency
+2312..2316|Expansion
+2630..2637|Comparison
+2736..2739|Expansion
+2740..2744|Temporal
+3018..3021|Expansion
+3055..3057|Contingency
+3163..3166|Expansion
+3227..3231|Temporal
+3591..3595|Expansion

@@ -1,0 +1,10 @@
+343..346|Expansion
+400..403|Expansion
+614..617|Expansion
+777..780|Expansion
+1018..1022|Temporal
+1155..1163|Comparison
+1445..1453|Comparison
+1612..1619|Comparison
+2097..2101|Expansion
+2372..2375|Expansion

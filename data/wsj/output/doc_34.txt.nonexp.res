@@ -1,0 +1,1 @@
+Implicit|||||||||||Contingency|||||||||||104..262|1|My child 's birth was covered by private insurance in New York ; my friend gave birth here , under Canada 's much-lauded , state-funded , universal health care plan .||||||||265..291|2|" Did you have an epidural ? "|||||||||||||

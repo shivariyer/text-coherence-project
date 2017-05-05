@@ -1,0 +1,13 @@
+490..498|Expansion
+800..803|Contingency
+1394..1400|Comparison
+1726..1729|Comparison
+1839..1844|Comparison
+2082..2089|Contingency
+2203..2208|Comparison
+2250..2255|Comparison
+2276..2281|Comparison
+2564..2568|Temporal
+2633..2636|Comparison
+4129..4132|Comparison
+4402..4407|Comparison

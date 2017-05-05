@@ -1,0 +1,7 @@
+conn:until conn_POS:IN prev1:action prev1_POS:NN with_prev1_full:action_until with_prev1_POS_full:NN_IN prev2:'s prev2_POS:POS with_prev2_full:'s_until with_prev2_POS_full:POS_IN NA
+conn:Although conn_POS:IN sent_pos:0 NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:fraud prev2_POS:NN with_prev2_full:fraud_but with_prev2_POS_full:NN_CC NA
+conn:also conn_POS:RB sent_pos:2 prev1:Keeth prev1_POS:NNP with_prev1_full:Keeth_also with_prev1_POS_full:NNP_RB prev2:Mr. prev2_POS:NNP with_prev2_full:Mr._also with_prev2_POS_full:NNP_RB NA
+conn:after conn_POS:IN prev1:Defense prev1_POS:NNP with_prev1_full:Defense_after with_prev1_POS_full:NNP_IN prev2:of prev2_POS:IN with_prev2_full:of_after with_prev2_POS_full:IN_IN NA
+conn:Although conn_POS:IN sent_pos:0 NA
+conn:also conn_POS:RB prev1:employee prev1_POS:NN with_prev1_full:employee_also with_prev1_POS_full:NN_RB prev2:an prev2_POS:DT with_prev2_full:an_also with_prev2_POS_full:DT_RB NA

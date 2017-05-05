@@ -1,0 +1,13 @@
+672..675|Expansion
+1021..1025|Expansion
+1818..1823|Temporal
+1885..1892|Comparison
+2291..2295|Expansion
+2411..2418|Contingency
+2640..2644|Temporal
+2689..2692|Comparison
+2783..2790|Contingency
+3888..3893|Comparison
+4182..4187|Comparison
+4244..4252|Comparison
+4689..4696|Contingency

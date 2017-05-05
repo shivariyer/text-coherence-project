@@ -1,0 +1,13 @@
+426..429|Expansion
+668..672|Temporal
+857..864|Comparison
+1032..1040|Comparison
+1435..1440|Comparison
+1909..1913|Expansion
+2006..2013|Contingency
+2240..2245|Temporal
+2298..2301|Comparison
+2392..2399|Contingency
+3360..3367|Contingency
+4603..4608|Comparison
+4668..4672|Expansion

@@ -1,0 +1,9 @@
+168..171|Comparison
+172..174|Contingency
+258..262|Expansion
+1484..1487|Expansion
+1488..1492|Temporal
+1636..1643|Contingency
+1781..1784|Expansion
+2012..2015|Expansion
+2016..2020|Temporal

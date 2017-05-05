@@ -1,0 +1,69 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Moody) (POS 's))
+      (NN Investor))
+    (VP (VBZ 's)
+      (NP
+        (NP (NNP Service) (NNP Inc.))
+        (SBAR
+          (S
+            (VP (VBD upgraded)
+              (NP
+                (NP
+                  (NP (DT this) (NN company) (POS 's))
+                  (JJ senior) (JJ secured) (NN debt) (NN rating))
+                (PP (TO to)
+                  (NP
+                    (ADJP (JJ single-A-1)
+                      (PP (IN from)
+                        (NP
+                          (NP (NN single-A-2))
+                          (CC and)
+                          (NP (PRP$ its) (JJ preferred) (NN stock)))))
+                    (NN rating))))
+              (PP (TO to)
+                (NP (CD a1)))
+              (PP (IN from)
+                (NP (CD a2)))
+              (PP (VBN based)
+                (PP (IN on)
+                  (NP
+                    (NP (DT the) (NN company) (POS 's))
+                    (`` ``) (VBN continued) (NN improvement)))))))
+        (PP (IN in)
+          (NP (JJ financial) (NN performance)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (NNP Dayton) (NNP Power))
+    (VP
+      (VP (VBZ is)
+        (NP
+          (NP (DT a) (NN subsidiary))
+          (PP (IN of)
+            (NP (NNP DPL) (NNP Inc.)))))
+      (CC and)
+      (VP (VBZ provides)
+        (NP (JJ electric)
+          (CC and)
+          (NN gas) (NN service))
+        (PP (TO to)
+          (NP
+            (NP (NNS portions))
+            (PP (IN of)
+              (NP (JJ west-central) (NNP Ohio)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN move))
+    (VP (VBZ affects)
+      (NP
+        (NP
+          (QP ($ $) (CD 858.8) (CD million)))
+        (PP (IN of)
+          (NP (NN debt)))))
+    (. .)))
+

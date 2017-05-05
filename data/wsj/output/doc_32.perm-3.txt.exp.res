@@ -1,0 +1,11 @@
+697..699|Contingency
+1197..1204|Comparison
+3150..3157|Comparison
+3159..3161|Contingency
+3279..3288|Expansion
+3849..3853|Contingency
+4513..4519|Expansion
+4818..4829|Comparison
+5014..5025|Expansion
+5227..5238|Expansion
+5944..5948|Expansion

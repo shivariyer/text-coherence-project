@@ -1,0 +1,15 @@
+74..77|Comparison
+102..104|Contingency
+306..314|Comparison
+440..444|Expansion
+933..936|Comparison
+1061..1068|Expansion
+1131..1136|Temporal
+1179..1182|Comparison
+1407..1409|Contingency
+1467..1470|Comparison
+1527..1531|Expansion
+2604..2611|Contingency
+2847..2857|Temporal
+2978..2990|Expansion
+3345..3347|Contingency

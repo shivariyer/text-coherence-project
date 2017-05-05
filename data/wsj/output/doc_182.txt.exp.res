@@ -1,0 +1,9 @@
+533..537|Expansion
+646..650|Temporal
+853..856|Comparison
+1349..1352|Expansion
+1422..1424|Contingency
+1509..1513|Expansion
+1604..1606|Contingency
+1704..1712|Expansion
+1818..1822|Expansion

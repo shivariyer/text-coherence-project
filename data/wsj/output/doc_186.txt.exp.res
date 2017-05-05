@@ -1,0 +1,14 @@
+318..321|Comparison
+531..536|Temporal
+582..588|Temporal
+1267..1270|Expansion
+1366..1371|Temporal
+1742..1753|Expansion
+2086..2089|Expansion
+2862..2867|Temporal
+3098..3102|Expansion
+3860..3862|Temporal
+4405..4407|Contingency
+4528..4531|Comparison
+4679..4682|Expansion
+4840..4847|Contingency

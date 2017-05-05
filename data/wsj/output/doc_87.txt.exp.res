@@ -1,0 +1,17 @@
+0..2|Temporal
+321..332|Comparison
+673..678|Contingency
+1617..1620|Expansion
+1826..1829|Comparison
+1861..1866|Contingency
+1919..1925|Expansion
+1936..1938|Contingency
+1952..1955|Comparison
+2487..2489|Contingency
+2997..3001|Expansion
+3266..3269|Expansion
+3327..3331|Expansion
+3897..3900|Comparison
+4083..4088|Temporal
+4420..4422|Contingency
+4731..4733;4759..4763|Expansion

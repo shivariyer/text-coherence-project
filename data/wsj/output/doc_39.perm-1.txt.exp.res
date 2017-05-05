@@ -1,0 +1,11 @@
+0..8|Expansion
+303..309|Expansion
+442..449|Contingency
+1682..1684|Contingency
+2297..2299|Contingency
+2444..2448|Expansion
+3412..3415|Comparison
+3573..3577|Expansion
+3966..3969|Comparison
+4252..4256|Temporal
+4362..4373|Expansion

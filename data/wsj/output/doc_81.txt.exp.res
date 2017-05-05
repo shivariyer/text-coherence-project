@@ -1,0 +1,16 @@
+113..116|Comparison
+343..347|Expansion
+440..443|Comparison
+444..446|Temporal
+723..729|Temporal
+941..944|Expansion
+1182..1188|Comparison
+1653..1657|Expansion
+1709..1712|Comparison
+1796..1799|Expansion
+1995..1998|Expansion
+2692..2694|Contingency
+3065..3077|Expansion
+3260..3269|Expansion
+3530..3533|Expansion
+5111..5114|Comparison

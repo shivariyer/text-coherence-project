@@ -1,0 +1,11 @@
+239..242|Expansion
+782..787|Temporal
+1067..1071|Temporal
+1187..1191|Expansion
+1277..1284|Contingency
+1775..1787|Expansion
+1870..1875|Contingency
+2138..2145|Contingency
+2281..2285|Temporal
+2558..2562|Expansion
+2940..2942|Contingency

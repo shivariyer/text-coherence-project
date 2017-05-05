@@ -1,0 +1,12 @@
+246..249|Expansion
+320..324|Expansion
+675..680|Temporal
+973..980|Expansion
+1243..1248|Temporal
+1755..1758|Comparison
+3528..3530|Temporal
+3728..3732|Temporal
+3795..3798|Comparison
+3799..3803|Temporal
+3876..3881|Temporal
+5524..5529|Comparison

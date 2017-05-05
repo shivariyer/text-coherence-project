@@ -1,0 +1,15 @@
+753..760|Comparison
+1109..1111|Temporal
+1459..1463|Expansion
+1718..1721|Expansion
+1791..1793|Contingency
+2058..2063|Temporal
+2505..2516|Expansion
+2754..2759|Temporal
+3243..3246|Comparison
+3325..3328|Comparison
+3355..3358|Expansion
+4061..4064|Expansion
+4270..4273|Comparison
+4452..4460|Expansion
+4760..4769|Contingency

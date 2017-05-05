@@ -1,0 +1,8 @@
+conn:when conn_POS:WRB prev1:occurred prev1_POS:VBD with_prev1_full:occurred_when with_prev1_POS_full:VBD_WRB prev2:deaths prev2_POS:NNS with_prev2_full:deaths_when with_prev2_POS_full:NNS_WRB NA
+conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:room prev2_POS:NN with_prev2_full:room_and with_prev2_POS_full:NN_CC NA
+conn:if conn_POS:IN prev1:workers prev1_POS:NNS with_prev1_full:workers_if with_prev1_POS_full:NNS_IN prev2:its prev2_POS:PRP$ with_prev2_full:its_if with_prev2_POS_full:PRP$_IN NA
+conn:after conn_POS:IN prev1:infighting prev1_POS:NN with_prev1_full:infighting_after with_prev1_POS_full:NN_IN prev2:ruling-party prev2_POS:NN with_prev2_full:ruling-party_after with_prev2_POS_full:NN_IN NA
+conn:if conn_POS:IN prev1:troops prev1_POS:NNS with_prev1_full:troops_if with_prev1_POS_full:NNS_IN prev2:peacekeeping prev2_POS:VBG with_prev2_full:peacekeeping_if with_prev2_POS_full:VBG_IN NA
+conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:force prev2_POS:NN with_prev2_full:force_but with_prev2_POS_full:NN_CC NA
+conn:however conn_POS:RB prev1:, prev1_POS:, with_prev1_full:,_however with_prev1_POS_full:,_RB prev2:said prev2_POS:VBD with_prev2_full:said_however with_prev2_POS_full:VBD_RB NA
+conn:if conn_POS:IN prev1:group prev1_POS:NN with_prev1_full:group_if with_prev1_POS_full:NN_IN prev2:the prev2_POS:DT with_prev2_full:the_if with_prev2_POS_full:DT_IN NA

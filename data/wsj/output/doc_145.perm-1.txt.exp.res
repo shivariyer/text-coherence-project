@@ -1,0 +1,9 @@
+137..144|Contingency
+188..191|Expansion
+841..844|Comparison
+845..847|Contingency
+931..935|Expansion
+1678..1681|Expansion
+1682..1686|Temporal
+2034..2037|Expansion
+2038..2042|Temporal

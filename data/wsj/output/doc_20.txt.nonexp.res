@@ -1,0 +1,1 @@
+EntRel||||||||||||||||||||||6506..6603|44|And while hiring a vet was once deemed patriotic , doing so now is often seen as neutral – at best .||||||||6607..6692|45|" The key is : Does the person bring skills that will be effective in your environment ? "|||||||||||||

@@ -1,0 +1,1 @@
+EntRel||||||||||||||||||||||488..517|5|Wolfgang G. Roeseler , Ph.D. .||||||||517..623|6|Harry Truman managed to shed the baggage of the St. Louis Pendergast machine as president , after all ... "|||||||||||||

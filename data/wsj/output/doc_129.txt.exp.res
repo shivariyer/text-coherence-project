@@ -1,0 +1,12 @@
+119..123|Expansion
+304..306|Temporal
+1423..1427|Expansion
+1798..1801|Comparison
+1842..1849|Expansion
+3802..3809|Comparison
+4152..4156|Temporal
+4192..4197|Temporal
+4661..4663|Contingency
+4768..4775|Comparison
+5422..5424|Temporal
+5627..5631|Expansion
