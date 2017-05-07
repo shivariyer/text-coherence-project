@@ -37,7 +37,9 @@ class CoherenceFeatureBuilder():
             return {"relations": relations}
 
     def extract_relation(self, relation, arg, feature_type):
-        # TODO try other stemmers
+        # TODO try other stemmers - e.g. SnowballStemmer
+        # (http://www.nltk.org/howto/stem.html) and WordNet Lemmatizer
+        # (nltk.stem.wordnet.WordNetLemmatizer)
         stemmer = PorterStemmer()
         #print relation[arg]
         tokens = nltk.word_tokenize(relation[arg])
@@ -70,7 +72,7 @@ class CoherenceFeatureBuilder():
 
     def build_matrix(self, relations):
         # Extracting argument and relation features corresponding Type & Arg in paper
-        for relation in relations["relations"]:
+        for relation in relations['relations']:
             for arg in ['arg1', 'arg2']:
                 for feat_type in ['argument', 'type']:
                     self.extract_relation(relation, arg, feat_type)
@@ -78,12 +80,13 @@ class CoherenceFeatureBuilder():
             self.num_sentences.extend([relation['s1'], relation['s2']])
 
         self.num_sentences = list(set(self.num_sentences))
+        
         # Filling in nil values
         for term in self.all_terms:
             for num_s in self.num_sentences:
-                if self.discourse_matrix.get((term, num_s), None) is None:
+                if self.discourse_matrix.get((term, num_s)) is None:
                     self.discourse_matrix[(term, num_s)] = [None]
-                if self.relation_matrix.get((term, num_s), None) is None:
+                if self.relation_matrix.get((term, num_s)) is None:
                     self.relation_matrix[(term, num_s)] = [None]
 
     def get_permutations(self, term, s0, s1, feat_type):
@@ -93,21 +96,22 @@ class CoherenceFeatureBuilder():
         elif feat_type == 'type':
             feature_matrix = self.relation_matrix
 
-        if feature_matrix.get((term, s0), None) and  feature_matrix.get((term, s1), None):
-            for _ in itertools.product(feature_matrix[(term, s0)], feature_matrix[(term, s1)]):
-                unique_permut.append(_)
-        return [_ for _ in unique_permut] 
+        if feature_matrix.get((term, s0)) and feature_matrix.get((term, s1)):
+            unique_permut = list(itertools.product(feature_matrix[(term, s0)], feature_matrix[(term, s1)]))
+        return unique_permut
 
     def compute_sequence_probabilities(self, feature_types=['argument']):
         final_features = {}
+        num_sentences_sorted = sorted(self.num_sentences)
         for feature_type in feature_types:
             total_permutations = 0
             sequence_probability = {}
             for term in self.all_terms:
-                for num_s in sorted(self.num_sentences)[:-1]:
+                for num_s in num_sentences_sorted[:-1]:
                     local_permutations = self.get_permutations(term, num_s, num_s+1, feature_type)
+                    #print local_permutations
                     for lp in local_permutations:
-                        if sequence_probability.get(lp, None):
+                        if sequence_probability.get(lp):
                             sequence_probability[lp] += 1.0
                         else:
                             sequence_probability[lp] = 1.0
@@ -132,11 +136,13 @@ if __name__ == "__main__":
     
     if os.path.isdir(args.inputarg):
         fileslist.extend([fname for fname in os.listdir(args.inputarg) if fname.endswith('.pipe')])
-        workingdir = args.inputarg
+        workingdir = os.path.join(args.inputarg, '..')
     else:
         workingdir, filename = os.path.split(args.inputarg)
         fileslist.append(filename)
-
+    
+    fileslist.sort()
+    
     print workingdir
     print fileslist
     #parse = False#True
@@ -166,7 +172,17 @@ if __name__ == "__main__":
         '''
         features[filename] = cb.compute_sequence_probabilities(['argument', 'type'])
 
+        # print cb.discourse_matrix
+        # print cb.relation_matrix
+        # print cb.all_terms
+        # print cb.num_sentences
+    
     #pickle.dump(features, open('data/%s_features.pkl'%input_dir, 'wb'))
     if len(fileslist) > 0:
-        with open(os.path.join(workingdir, filename + '.features.pkl'), 'wb') as pklf:
+        if len(fileslist) >= 2:
+            pklfname = os.path.join(workingdir, '{}-{}.features.pkl'.format(fileslist[0].rsplit('.',1)[0], fileslist[-1].rsplit('.',1)[0]))
+        else:
+            pklfname = os.path.join(workingdir, '{}.features.pkl'.format(fileslist[0].rsplit('.',1)[0]))
+    
+        with open(pklfname, 'wb') as pklf:
             pickle.dump(features, pklf)
