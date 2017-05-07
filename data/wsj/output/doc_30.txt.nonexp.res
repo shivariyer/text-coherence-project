@@ -1,3 +1,0 @@
-EntRel||||||||||||||||||||||322..398|3|On deck , Mrs. Teittenen 's husband , Teuvo , takes in the early morning scenery .||||||||401..428|4|" Beautiful coast , is n't it ? "|||||||||||||
-Implicit|||||||||||Expansion|||||||||||444..499|6|The soldiers alongside him eye each other incredulously .||||||||502..520|7|" What 's beautiful ? "|||||||||||||
-Implicit|||||||||||Expansion|||||||||||7960..8044|80|" A Muslim bringing money to a Christian to buy food for Jews , " she says with a smile .||||||||8047..8124|81|" If individuals can make peace like that , there 's hope that nations can , too . "|||||||||||||

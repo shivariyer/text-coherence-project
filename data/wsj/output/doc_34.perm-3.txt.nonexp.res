@@ -1,1 +1,0 @@
-Implicit|||||||||||Contingency|||||||||||3979..4127|35|But given the difficulty women who do not want to suffer pain in childbirth face in exercising their right of choice , the gesture smacks of cynicism .||||||||4130..4156|36|" Did you have an epidural ? "|||||||||||||

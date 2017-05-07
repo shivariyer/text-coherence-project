@@ -1,1 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||5296..5453|59|Mr. Rohmer so relentlessly and methodically details even her most mundane thoughts and actions you start to feel obligated to pay attention to Felicie 's fate .||||||||5456..5475|60|" I want to go home ! "|||||||||||||

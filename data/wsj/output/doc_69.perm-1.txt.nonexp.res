@@ -1,1 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||4022..4205|32|The division is n't always along clear lines , but in general , one group is made up primarily of secular Jews and includes most of the government , which wants to pull Jews out of Hebron .||||||||4208..4249|33|" Do you know what makes me really scared ? "|||||||||||||

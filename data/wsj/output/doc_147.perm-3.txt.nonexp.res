@@ -1,2 +1,0 @@
-EntRel||||||||||||||||||||||787..963|5|" It sounds kind of like crocodile tears to me , " says journalist Robert Wright , author of a recent New Republic cover story about the implications of Prozac on healthcare reform .||||||||966..1000|6|Capitalism can work out its kinks ! "|||||||||||||
-EntRel||||||||||||||||||||||966..1000|6|Capitalism can work out its kinks ! "||||||||1002..1044|7|and Edgar Allan Poe saying " Hello , birdie ! "|||||||||||||

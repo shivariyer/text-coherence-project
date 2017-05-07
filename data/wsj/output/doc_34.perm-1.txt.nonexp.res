@@ -1,1 +1,0 @@
-Implicit|||||||||||Contingency|||||||||||5996..6081|49|A health system that is run by politicians is , however , subject to political pressure .||||||||6084..6110|50|" Did you have an epidural ? "|||||||||||||

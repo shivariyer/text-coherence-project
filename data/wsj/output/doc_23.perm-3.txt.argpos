@@ -1,4 +1,0 @@
-conn:when conn_POS:WRB prev1:only prev1_POS:RB with_prev1_full:only_when with_prev1_POS_full:RB_WRB prev2:found prev2_POS:VBN with_prev2_full:found_when with_prev2_POS_full:VBN_WRB NA
-conn:when conn_POS:WRB prev1:old prev1_POS:JJ with_prev1_full:old_when with_prev1_POS_full:JJ_WRB prev2:years prev2_POS:NNS with_prev2_full:years_when with_prev2_POS_full:NNS_WRB NA
-conn:after conn_POS:IN prev1:year prev1_POS:NN with_prev1_full:year_after with_prev1_POS_full:NN_IN prev2:last prev2_POS:JJ with_prev2_full:last_after with_prev2_POS_full:JJ_IN NA
-conn:But conn_POS:CC sent_pos:0 NA

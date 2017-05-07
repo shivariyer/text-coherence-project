@@ -1,1 +1,0 @@
-EntRel||||||||||||||||||||||0..131|0|It is a flow chart mailed to him by Blue Care Network of Southeast Michigan , an HMO affiliate of Blue Cross/Blue Shield of Michigan .||||||||134..305|1|Precertification reviews , current and proposed under the Clinton plan and others , are already raising the blood pressure of busy physicians and anxious patients nationwide .|||||||||||||

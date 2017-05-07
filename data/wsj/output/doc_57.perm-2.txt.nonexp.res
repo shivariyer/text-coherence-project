@@ -1,1 +1,0 @@
-Implicit|||||||||||Contingency|||||||||||4240..4373|39|" They tell employees we need to know what 's wrong and what could be done better , so that we can be a family and work with high ethics .||||||||4376..4504|40|" If people are calling in anonymously accusing John Doe of violating something , how are John Doe 's rights going to be protected ? "|||||||||||||

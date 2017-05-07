@@ -1,1 +1,0 @@
-EntRel||||||||||||||||||||||3922..4084|24|The University of North Carolina 's Dr. Savitz said he thinks the results strengthen " a bit " the case for an association between some leukemias and magnetic fields .||||||||4087..4170|25|" The mystery is , given the quality of the study , why did n't it emerge very clearly ? "|||||||||||||

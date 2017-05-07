@@ -1,2 +1,0 @@
-EntRel||||||||||||||||||||||2687..2859|24|" After a 17-year war , the first thing you should do is re-establish the credibility of official institutions , " says Assam Salam , an architect and nephew of a former premier .||||||||2862..2896|25|" Who is this nouveau-riche Hariri ? "|||||||||||||
-Implicit|||||||||||Contingency|||||||||||3420..3576|31|But though the so-called Taif agreement also called for ending Lebanon 's sectarian system of power sharing , Mr. Hariri has n't introduced any secular reforms .||||||||3579..3592|32|What dollars ? "|||||||||||||

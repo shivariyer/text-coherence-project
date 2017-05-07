@@ -1,1 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||3249..3342|33|Mr. Krenson has parlayed his talent into a thriving business , called A&B Bird Trappers Inc. .|||||||||34|He – Alan – is A , and his wife , Beverly , is B .|||||||||||||

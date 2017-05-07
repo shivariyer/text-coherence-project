@@ -1,9 +1,0 @@
-225..229|Expansion
-329..337|Expansion
-651..655|Expansion
-764..768|Temporal
-838..842|Expansion
-881..884|Comparison
-1048..1050|Contingency
-1327..1330|Expansion
-1400..1402|Contingency

@@ -1,1 +1,0 @@
-Implicit|||||||||||Contingency|||||||||||447..619|5|No one is suggesting , for instance , that men should have hernia surgery without painkillers , under the knife of a " caring professional " who did not graduate from med school .||||||||622..648|6|" Did you have an epidural ? "|||||||||||||

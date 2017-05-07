@@ -1,1 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||331..397|2|A frustrated doctor and reader recently sent in the document below .||||||||400..571|3|Precertification reviews , current and proposed under the Clinton plan and others , are already raising the blood pressure of busy physicians and anxious patients nationwide .|||||||||||||

@@ -1,9 +1,0 @@
-67..70|Comparison
-71..73|Contingency
-157..161|Expansion
-359..362|Expansion
-363..367|Temporal
-1134..1141|Contingency
-1288..1291|Expansion
-1790..1793|Expansion
-1794..1798|Temporal

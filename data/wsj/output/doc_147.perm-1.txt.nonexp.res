@@ -1,2 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||4895..5091|29|As examples of other Prozac references that worry Lilly , Mr. Weber mentioned a " Life in Hell " comic strip about a preternaturally happy character who discovers someone put Prozac in his cornflakes .||||||||5094..5128|30|Capitalism can work out its kinks ! "|||||||||||||
-EntRel||||||||||||||||||||||5094..5128|30|Capitalism can work out its kinks ! "||||||||5130..5172|31|and Edgar Allan Poe saying " Hello , birdie ! "|||||||||||||

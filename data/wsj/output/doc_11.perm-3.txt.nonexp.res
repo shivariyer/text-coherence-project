@@ -1,1 +1,0 @@
-Implicit|||||||||||Contingency|||||||||||7032..7226|45|The ADA gave health care workers the right to continue performing invasive surgery without disclosing to patients that there is a risk that they could contract AIDS from the health care provider .||||||||7229..7290|46|Since contagious diseases are physiological disorders – voila !|||||||||||||

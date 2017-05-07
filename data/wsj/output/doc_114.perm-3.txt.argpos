@@ -1,7 +1,0 @@
-conn:also conn_POS:RB prev1:Congress prev1_POS:NNP with_prev1_full:Congress_also with_prev1_POS_full:NNP_RB prev2:of prev2_POS:IN with_prev2_full:of_also with_prev2_POS_full:IN_RB NA
-conn:once conn_POS:IN prev1:accelerate prev1_POS:VB with_prev1_full:accelerate_once with_prev1_POS_full:VB_IN prev2:to prev2_POS:TO with_prev2_full:to_once with_prev2_POS_full:TO_IN NA
-conn:also conn_POS:RB prev1:conference prev1_POS:NN with_prev1_full:conference_also with_prev1_POS_full:NN_RB prev2:the prev2_POS:DT with_prev2_full:the_also with_prev2_POS_full:DT_RB NA
-conn:also conn_POS:RB prev1:group prev1_POS:NN with_prev1_full:group_also with_prev1_POS_full:NN_RB prev2:administrators prev2_POS:NNS with_prev2_full:administrators_also with_prev2_POS_full:NNS_RB NA
-conn:and conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_and with_prev1_POS_full:,_CC prev2:practice prev2_POS:NN with_prev2_full:practice_and with_prev2_POS_full:NN_CC NA
-conn:In_particular conn_POS:IN_JJ sent_pos:0 NA
-conn:as conn_POS:IN prev1:, prev1_POS:, with_prev1_full:,_as with_prev1_POS_full:,_IN prev2:Register prev2_POS:NNP with_prev2_full:Register_as with_prev2_POS_full:NNP_IN NA

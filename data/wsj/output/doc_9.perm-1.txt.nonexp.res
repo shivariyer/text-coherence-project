@@ -1,1 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||2621..2691|23|Still , men in sales earn , on average , $ 31,346 , while women get $ 17,924 .||||||||2694..2740|24|Their presentation : " Some Things Never Change . "|||||||||||||

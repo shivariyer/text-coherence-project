@@ -1,1 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||1572..1645|15|Female commodities sales reps recorded the biggest pay gains : 71 % vs. 40 % .||||||||1648..1694|16|Their presentation : " Some Things Never Change . "|||||||||||||

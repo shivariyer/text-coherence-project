@@ -1,1 +1,0 @@
-Implicit|||||||||||Contingency|||||||||||3050..3105|27|This signals another problem that needs to be addressed .||||||||3108..3236|28|" If people are calling in anonymously accusing John Doe of violating something , how are John Doe 's rights going to be protected ? "|||||||||||||

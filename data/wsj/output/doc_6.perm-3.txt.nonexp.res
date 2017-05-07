@@ -1,2 +1,0 @@
-Implicit|||||||||||Contingency|||||||||||5631..5689|49|He then worked in Boston before going to work for Solidere .||||||||5692..5726|50|" Who is this nouveau-riche Hariri ? "|||||||||||||
-Implicit|||||||||||Contingency|||||||||||8289..8499|74|Beyond clan conflict , though , the rise of Mr. Hariri and his " financial militia , " as his subordinates are known here , threatens the status of elite Muslim and Christian families who have run Lebanon for decades .||||||||8502..8515|75|What dollars ? "|||||||||||||

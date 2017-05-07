@@ -1,3 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||4081..4192|40|I know I ca n't turn back the clock and undo any of that , but what I can do is help Jews who are in trouble now . "||||||||4195..4272|41|" If individuals can make peace like that , there 's hope that nations can , too . "|||||||||||||
-EntRel||||||||||||||||||||||5777..5911|57|In the morning , the Finns nurse the van to its rendezvous with the Sarajevo Jews in a clothesline-draped courtyard of Split 's old city .||||||||5914..5941|58|" Beautiful coast , is n't it ? "|||||||||||||
-Implicit|||||||||||Expansion|||||||||||6647..6708|67|They wrote to Mrs. Huber and offered to help with the driving .||||||||6711..6729|68|" What 's beautiful ? "|||||||||||||

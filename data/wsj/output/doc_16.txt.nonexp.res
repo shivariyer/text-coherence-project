@@ -1,1 +1,0 @@
-Implicit|||||||||||Expansion|||||||||||10133..10287|84|Pop a disk into a PC , type in a few numbers and comments , and presto – out come stories awash in clutch shots , runaway victories and at-the-buzzer heroics .||||||||10291..10308|85|" It 's scary , huh ? "|||||||||||||

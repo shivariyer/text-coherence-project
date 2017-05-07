@@ -1,4 +1,0 @@
-conn:when conn_POS:WRB prev1:postage prev1_POS:NN with_prev1_full:postage_when with_prev1_POS_full:NN_WRB prev2:for prev2_POS:IN with_prev2_full:for_when with_prev2_POS_full:IN_WRB NA
-conn:But conn_POS:CC sent_pos:0 NA
-conn:when conn_POS:WRB prev1:headlines prev1_POS:NNS with_prev1_full:headlines_when with_prev1_POS_full:NNS_WRB prev2:the prev2_POS:DT with_prev2_full:the_when with_prev2_POS_full:DT_WRB NA
-conn:but conn_POS:CC prev1:, prev1_POS:, with_prev1_full:,_but with_prev1_POS_full:,_CC prev2:government prev2_POS:NN with_prev2_full:government_but with_prev2_POS_full:NN_CC NA
