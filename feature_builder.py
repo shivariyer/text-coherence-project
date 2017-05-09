@@ -1,3 +1,6 @@
+
+import re
+import sys
 import json
 import nltk
 from nltk.stem import PorterStemmer
@@ -5,6 +8,7 @@ import itertools
 import os
 import pickle
 import argparse
+import unicodedata
 
 class CoherenceFeatureBuilder():
     def __init__(self):
@@ -15,44 +19,68 @@ class CoherenceFeatureBuilder():
         self.num_sentences = []
         
     def read_input(self, input_file):
-        relations = [] 
+        relations = []
         with open(input_file, 'r') as f:
-            for line in f.readlines():
+            alllines = f.readlines()
+            
+            for lineno, line in enumerate(alllines,1):
                 line = line.split("|")
                 
-                # Only taking relations between sentences
-                #NOTE Ignoring this for now because of less data
-                if True:#line[23] != line[33]:
-                    relation = {
+                if not len(line) == 48:
+                    # this means there are '|' symbols in a text. We
+                    # ignore such sentences because technically they
+                    # are not complete sentences.
+                    continue
+                
+                try:
+                    # encapsulating in a try block to prevent errors
+                    # due to either wrongly formatted .pipe file
+                    # (unlikely) or bad symbols in input sentence
+
+                    # Only taking relations between sentences NOTE
+                    # Ignoring this for now because of less data
+                    if True:#line[23] != line[33]:
+
+                        # remove stupid unicode characters
+                        #arg1str = ''.join([i for i in line[24] if ord(i) < 128 else ' '])
+                        #arg2str = ''.join([i for i in line[34] if ord(i) < 128 else ' '])
+                        arg1str = re.sub('[^\x00-\x7F]+', ' ', line[24])
+                        arg2str = re.sub('[^\x00-\x7F]+', ' ', line[34])
+                        
+                        relation = {
                             'type': line[0],
                             'conn_head': line[5],
                             'conn_head_semantic_class': line[11],
-                            'arg1': line[24],
-                            'arg2': line[34],
+                            'arg1': arg1str,
+                            'arg2': arg2str,
                             's1': int(line[23]),
                             's2': int(line[33])
-                            }
-                    relations.append(relation)
-            print 'Number of relations:', len(relations)
+                        }
+                        relations.append(relation)
+                        
+                except ValueError:
+                    print >>sys.stderr, 'Problem with relation in pipe. File: {}, Line no: {}'.format(input_file, lineno)
+                    continue
+                
+                print 'Number of relations:', len(relations)
+                
             return {"relations": relations}
-
+    
     def extract_relation(self, relation, arg, feature_type):
         # TODO try other stemmers - e.g. SnowballStemmer
         # (http://www.nltk.org/howto/stem.html) and WordNet Lemmatizer
         # (nltk.stem.wordnet.WordNetLemmatizer)
         stemmer = PorterStemmer()
-        #print relation[arg]
         tokens = nltk.word_tokenize(relation[arg])
-        #print tokens
-        terms = [stemmer.stem(_[0]) for _ in nltk.pos_tag(tokens) if _[1] in self.open_class_words]
-
+        terms = [stemmer.stem(postags[0]) for postags in nltk.pos_tag(tokens) if postags[1] in self.open_class_words]
+        
         if feature_type == "argument":
             matrix = self.discourse_matrix
         elif feature_type == "type":
             matrix = self.relation_matrix
-
+        
         for term in terms:
-            arg_type = "1" if term in relation["arg1"] else "2"
+            arg_type = '1' if term in relation['arg1'] else '2'
             if feature_type == "argument":
                 arg_relation = relation['conn_head_semantic_class']+"."+arg_type 
             elif feature_type == "type":
@@ -117,7 +145,7 @@ class CoherenceFeatureBuilder():
                             sequence_probability[lp] = 1.0
                     total_permutations += len(local_permutations)
             final_features.update({k: sequence_probability[k]/total_permutations  for k in sequence_probability.keys()})
-        print final_features
+        #print final_features
         return final_features
 
 if __name__ == "__main__":
@@ -127,6 +155,8 @@ if __name__ == "__main__":
                         help='Input file or directory/folder containing input files (.pipe)')
     parser.add_argument('--skipparse', '-p', action='store_true',
                         help='Skip creation of .json from .pipe files')
+    parser.add_argument('--outfile', default='features',
+                        help='Output file name')
     args = parser.parse_args()
     
     #input_dir = sys.argv[1]#'data/wsj_2300.txt.pipe'
@@ -136,7 +166,7 @@ if __name__ == "__main__":
     
     if os.path.isdir(args.inputarg):
         fileslist.extend([fname for fname in os.listdir(args.inputarg) if fname.endswith('.pipe')])
-        workingdir = os.path.join(args.inputarg, '..')
+        workingdir = os.path.join(args.inputarg)
     else:
         workingdir, filename = os.path.split(args.inputarg)
         fileslist.append(filename)
@@ -179,10 +209,12 @@ if __name__ == "__main__":
     
     #pickle.dump(features, open('data/%s_features.pkl'%input_dir, 'wb'))
     if len(fileslist) > 0:
-        if len(fileslist) >= 2:
-            pklfname = os.path.join(workingdir, '{}-{}.features.pkl'.format(fileslist[0].rsplit('.',1)[0], fileslist[-1].rsplit('.',1)[0]))
-        else:
-            pklfname = os.path.join(workingdir, '{}.features.pkl'.format(fileslist[0].rsplit('.',1)[0]))
-    
-        with open(pklfname, 'wb') as pklf:
+        # if len(fileslist) >= 2:
+        #     pklfpath = os.path.join(args.outputdir, '{}-{}.features.pkl'.format(fileslist[0].rsplit('.',1)[0], fileslist[-1].rsplit('.',1)[0]))
+        # else:
+        #     pklfpath = os.path.join(args.outputdir, '{}.features.pkl'.format(fileslist[0].rsplit('.',1)[0]))
+        pklfpath = args.outfile
+
+        print 'Writing features to', pklfpath
+        with open(pklfpath, 'wb') as pklf:
             pickle.dump(features, pklf)
