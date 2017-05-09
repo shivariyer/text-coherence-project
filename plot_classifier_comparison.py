@@ -35,7 +35,10 @@ from sklearn.metrics import f1_score
 from sklearn.linear_model import LogisticRegression
 
 
-# In[22]:
+# naming convention for original file (either 'perm-1' or nothing)
+origfile_sign = None
+if len(sys.argv) > 2:
+    origfile_sign = sys.argv[2]
 
 def get_data(featurefilepath):
     #dataset = 'barzilay'
@@ -50,20 +53,23 @@ def get_data(featurefilepath):
     label = np.ones([len(data.keys()),1])
     for i, _file in enumerate(data.keys()):
         train[i, :] = [data[_file][feat] if data[_file].get(feat) else 0 for feat in all_features.keys()]
-        if 'barzilay' in featurefilepath:
-            if not 'perm-1.txt' in _file:
-                label[i,0] = 0
-        else:
+        
+        # if 'barzilay' in featurefilepath:
+        #     if not 'perm-1.txt' in _file:
+        #         label[i,0] = 0
+        # else:
+        #     if 'perm' in _file:
+        #         label[i,0] = 0
+
+        if origfile_sign == None or origfile_sign == '':
             if 'perm' in _file:
                 label[i,0] = 0
-        # origfile_sign = 'perm-1.txt' if dataset == 'barzilay' else 'perm'
-        # if origfile_sign not in _file:
-        #     label[i, 0] = 0
+        elif not origfile_sign in _file:
+            label[i,0] = 0
+        
     #train = preprocessing.normalize(train)
     return (train, label)
 
-
-# In[23]:
 
 names = ["Nearest Neighbors", "Linear SVM", "RBF SVM", "Gaussian Process",
          "Decision Tree", "Random Forest", "Neural Net", "AdaBoost", "MaxEnt",
@@ -83,6 +89,7 @@ classifiers = [
 
 
 X, y = get_data(sys.argv[1])
+
 # preprocess dataset, split into training and test part
 X = StandardScaler().fit_transform(X)
 X_train, X_test, y_train, y_test =     train_test_split(X, y, test_size=.2, random_state=42)

@@ -62,7 +62,7 @@ class CoherenceFeatureBuilder():
                     print >>sys.stderr, 'Problem with relation in pipe. File: {}, Line no: {}'.format(input_file, lineno)
                     continue
                 
-                print 'Number of relations:', len(relations)
+                #print 'Number of relations:', len(relations)
                 
             return {"relations": relations}
     
