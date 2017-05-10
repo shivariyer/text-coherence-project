@@ -201,6 +201,7 @@ if __name__ == "__main__":
             print k,"==>" ,cb.relation_matrix[k]
         '''
         features[filename] = cb.compute_sequence_probabilities(['argument', 'type'])
+        #features[filename] = cb.compute_sequence_probabilities(['argument'])
 
         # print cb.discourse_matrix
         # print cb.relation_matrix
